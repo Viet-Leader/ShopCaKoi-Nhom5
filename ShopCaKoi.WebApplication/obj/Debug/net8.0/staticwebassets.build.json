@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gWloHjIid5gOYnuGkfRyI2bI343rjL+18DwWYb/lSyo=",
+  "Hash": "0R1+KgNITOcS8p4p1BxMwRMicp2zRTu3S+EsoZ/7DSA=",
   "Source": "ShopCaKoi.WebApplication",
   "BasePath": "_content/ShopCaKoi.WebApplication",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopCaKoi.WebApplication.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\buyTrip.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "css/site.css",
+      "RelativePath": "buyTrip.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\buyTrip.html"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\cart.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "cart.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\cart.html"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\contact.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "js/site.js",
+      "RelativePath": "contact.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\contact.html"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\css\\style.css",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "RelativePath": "css/style.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\css\\tiny-slider.css",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "RelativePath": "css/tiny-slider.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +166,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\tiny-slider.css"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\checkout.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "RelativePath": "checkout.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +185,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\checkout.html"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\favicon.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "RelativePath": "favicon.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\bag.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "RelativePath": "images/bag.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,15 +223,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\bag.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\bowl-2.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "RelativePath": "images/bowl-2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,15 +242,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\images\\bowl-2.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\bowl-3.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "RelativePath": "images/bowl-3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,15 +261,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\bowl-3.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\cart.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "RelativePath": "images/cart.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,15 +280,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\images\\cart.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\couch.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "RelativePath": "images/couch.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -299,15 +299,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\couch.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\cross.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "RelativePath": "images/cross.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,15 +318,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\images\\cross.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\dots-green.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "RelativePath": "images/dots-green.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\dots-green.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\dots-light.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "RelativePath": "images/dots-light.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -356,15 +356,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\images\\dots-light.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\dots-yellow.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "RelativePath": "images/dots-yellow.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -375,15 +375,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\dots-yellow.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\envelope-outline.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "RelativePath": "images/envelope-outline.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -394,15 +394,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\images\\envelope-outline.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\img-grid-1.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "RelativePath": "images/img-grid-1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -413,15 +413,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\img-grid-1.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\img-grid-2.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "RelativePath": "images/img-grid-2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -432,15 +432,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\images\\img-grid-2.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\img-grid-3.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "RelativePath": "images/img-grid-3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -451,15 +451,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\img-grid-3.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\K01.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "RelativePath": "images/K01.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -470,15 +470,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\images\\K01.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\K02.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "RelativePath": "images/K02.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -489,15 +489,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\K02.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\K03.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "RelativePath": "images/K03.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -508,15 +508,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\images\\K03.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\K04.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "RelativePath": "images/K04.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -527,15 +527,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\K04.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\K05.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "RelativePath": "images/K05.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -546,15 +546,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\images\\K05.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\K06.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "RelativePath": "images/K06.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -565,15 +565,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\K06.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\K07.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "RelativePath": "images/K07.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -584,15 +584,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\images\\K07.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\K08.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "RelativePath": "images/K08.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -603,15 +603,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\K08.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\KoiIndex.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "RelativePath": "images/KoiIndex.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -622,15 +622,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\images\\KoiIndex.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\person_1.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "RelativePath": "images/person_1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -641,15 +641,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\person_1.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\person_2.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "RelativePath": "images/person_2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,15 +660,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\images\\person_2.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\person_3.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "RelativePath": "images/person_3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -679,15 +679,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\person_3.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\person_4.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "RelativePath": "images/person_4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -698,15 +698,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\images\\person_4.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\person-1.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "RelativePath": "images/person-1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -717,15 +717,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\images\\person-1.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\person-1.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "RelativePath": "images/person-1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -736,15 +736,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\images\\person-1.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\post-1.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "RelativePath": "images/post-1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -755,15 +755,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\images\\post-1.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\post-2.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "RelativePath": "images/post-2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -774,15 +774,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\images\\post-2.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\post-3.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "RelativePath": "images/post-3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -793,15 +793,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\images\\post-3.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\product-1.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
+      "RelativePath": "images/product-1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -812,15 +812,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\images\\product-1.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\product-2.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "RelativePath": "images/product-2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -831,15 +831,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\images\\product-2.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\product-3.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "RelativePath": "images/product-3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -850,15 +850,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\images\\product-3.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\return.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "RelativePath": "images/return.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -869,15 +869,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\images\\return.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\search.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
+      "RelativePath": "images/search.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -888,15 +888,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\images\\search.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\sofa.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
+      "RelativePath": "images/sofa.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -907,15 +907,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\images\\sofa.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\songngu.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
+      "RelativePath": "images/songngu.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -926,15 +926,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\images\\songngu.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\support.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "RelativePath": "images/support.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -945,15 +945,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\images\\support.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\T01.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/bootstrap/LICENSE",
+      "RelativePath": "images/T01.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -964,15 +964,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "wwwroot\\images\\T01.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\T02.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/jquery/dist/jquery.js",
+      "RelativePath": "images/T02.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -983,15 +983,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\images\\T02.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\T03.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "RelativePath": "images/T03.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1002,15 +1002,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\images\\T03.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\T04.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "images/T04.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1021,15 +1021,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\images\\T04.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\T05.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/jquery/LICENSE.txt",
+      "RelativePath": "images/T05.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1040,15 +1040,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\images\\T05.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\T06.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "RelativePath": "images/T06.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1059,15 +1059,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\images\\T06.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\TraiCaKoi.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "RelativePath": "images/TraiCaKoi.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1078,15 +1078,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\images\\TraiCaKoi.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\truck.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "RelativePath": "images/truck.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1097,15 +1097,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\images\\truck.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\user.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "RelativePath": "images/user.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1116,15 +1116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\images\\user.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\images\\why-choose-us-img.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "RelativePath": "images/why-choose-us-img.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1135,15 +1135,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\images\\why-choose-us-img.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\index.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "RelativePath": "index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1154,15 +1154,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\js\\bootstrap.bundle.min.js",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "RelativePath": "js/bootstrap.bundle.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1173,15 +1173,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\js\\custom.js",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "RelativePath": "js/custom.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1192,7 +1192,121 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\js\\custom.js"
+    },
+    {
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\js\\tiny-slider.js",
+      "SourceId": "ShopCaKoi.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "BasePath": "_content/ShopCaKoi.WebApplication",
+      "RelativePath": "js/tiny-slider.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\tiny-slider.js"
+    },
+    {
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\prepros-6.config",
+      "SourceId": "ShopCaKoi.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "BasePath": "_content/ShopCaKoi.WebApplication",
+      "RelativePath": "prepros-6.config",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\prepros-6.config"
+    },
+    {
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\scss\\style.scss",
+      "SourceId": "ShopCaKoi.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "BasePath": "_content/ShopCaKoi.WebApplication",
+      "RelativePath": "scss/style.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\style.scss"
+    },
+    {
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\services.html",
+      "SourceId": "ShopCaKoi.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "BasePath": "_content/ShopCaKoi.WebApplication",
+      "RelativePath": "services.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\services.html"
+    },
+    {
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\shop.html",
+      "SourceId": "ShopCaKoi.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "BasePath": "_content/ShopCaKoi.WebApplication",
+      "RelativePath": "shop.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\shop.html"
+    },
+    {
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\thankyou.html",
+      "SourceId": "ShopCaKoi.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "BasePath": "_content/ShopCaKoi.WebApplication",
+      "RelativePath": "thankyou.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\thankyou.html"
     }
   ]
 }

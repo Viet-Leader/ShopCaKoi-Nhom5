@@ -1,0 +1,428 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="css/tiny-slider.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>ShopCaKoiT1</title>
+		<script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.9/dist/flatpickr.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.9/dist/flatpickr.min.css">
+
+	</head>
+
+	<body>
+		<!--Search Box-->
+		<div id="search-box" class="search-box bg-dark position-relative">
+			<div class="search-wrap">
+				<div class="close-button">
+				</div>
+				<form id="search-form" class="text-lg-center text-md-left pt-3" action="index.html" method="get">
+					<input type="text" class="search-input" placeholder="Search...">
+				</form>
+			</div>
+		</div>
+	<!---->
+		<!-- Start Header/Navigation -->
+		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+			<div class="container">
+				<a class="navbar-brand" href="index.html">ShopCaKoiT1<span>.</span></a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+						<li class="nav-item ">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+                        <li><a class="nav-link" href="shop.html">Buying Fish</a></li>
+                        <li class="active"><a class="nav-link" href="buyTrip.html">Buying Trip</a></li>
+						<li><a class="nav-link" href="services.html">Services</a></li>
+						<li><a class="nav-link" href="contact.html">Contact us</a></li>
+					</ul>
+					<ul class="custom-navbar-cta navbar-nav ms-5">
+						<li><a class="nav-link" href="#"data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="images/user.svg"></a>
+						
+							<!-- Motal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+							aria-hidden="true">
+
+							<div class="modal-dialog">
+							  <div class="modal-content">
+								<div class="modal-header border-bottom-0">
+								  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+								  <div class="tabs-listing">
+									<nav>
+										
+									  <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+										<button class="nav-link text-capitalize active" id="nav-sign-in-tab" data-bs-toggle="tab"
+										  data-bs-target="#nav-sign-in" type="button" role="tab" aria-controls="nav-sign-in"
+										  aria-selected="true">Sign In</button>
+										<button class="nav-link text-capitalize" id="nav-register-tab" data-bs-toggle="tab"
+										  data-bs-target="#nav-register" type="button" role="tab" aria-controls="nav-register"
+										  aria-selected="false">Register</button>
+									  </div>
+									</nav>
+									<div class="tab-content" id="nav-tabContent">
+									  <div class="tab-pane fade active show" id="nav-sign-in" role="tabpanel"
+										aria-labelledby="nav-sign-in-tab">
+										<div class="form-group py-3">
+										  <label class="mb-2" for="sign-in">Username or email address *</label>
+										  <input type="text" minlength="2" name="username" placeholder="Your Username"
+											class="form-control w-100 rounded-3 p-3" required>
+										</div>
+										<div class="form-group pb-3">
+										  <label class="mb-2" for="sign-in">Password *</label>
+										  <input type="password" minlength="2" name="password" placeholder="Your Password"
+											class="form-control w-100 rounded-3 p-3" required>
+										</div>
+										<label class="py-3">
+										  <input type="checkbox" required="" class="d-inline">
+										  <span class="label-body">Remember me</span>
+										  <span class="label-body"><a href="#" class="fw-bold">Forgot Password</a></span>
+										</label>
+										<button type="submit" name="submit" class="btn btn-dark w-100 my-3">Login</button>
+									  </div>
+									  <div class="tab-pane fade" id="nav-register" role="tabpanel"
+										aria-labelledby="nav-register-tab">
+										<div class="form-group py-3">
+										  <label class="mb-2" for="register">Your email address *</label>
+										  <input type="text" minlength="2" name="username" placeholder="Your Email Address"
+											class="form-control w-100 rounded-3 p-3" required>
+										</div>
+										<div class="form-group pb-3">
+										  <label class="mb-2" for="sign-in">Password *</label>
+										  <input type="password" minlength="2" name="password" placeholder="Your Password"
+											class="form-control w-100 rounded-3 p-3" required>
+										</div>
+										<label class="py-3">
+										  <input type="checkbox" required="" class="d-inline">
+										  <span class="label-body">I agree to the <a href="#" class="fw-bold">Privacy
+											  Policy</a></span>
+										</label>
+										<button type="submit" name="submit" class="btn btn-dark w-100 my-3">Register</button>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+						</li>
+
+						<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+						<li><a href="#" class="search-item border-0"><img width="25" height="50" src="images/search.svg"></a></li>
+					</ul>
+				</div>
+			</div> 	
+		</nav>
+
+		<!-- End Header/Navigation -->
+
+		<!-- Start Hero Section -->
+			<div class="hero">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-5">
+							<div class="intro-excerpt">
+								<h1>Shop</h1>
+							</div>
+						</div>
+						<div class="col-lg-7">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- End Hero Section -->
+            <!--Dặt lịch-->
+		<div class="col-lg-6 col-xxl-5">
+            <div class="form-request form-request-modern bg-gray-lighter novi-background"
+			style="margin: 30px 0px 30px 500px;">
+              <h4>Find your Tour</h4>
+              <form class="rd-mailform form-fix">
+                <div class="row row-20 row-fix">
+                  <div class="col-sm-12">
+                    <label class="form-label-outside">From</label>
+                    <div class="form-wrap form-wrap-inline">
+                      <select class="form-input" name="city-from">
+                        <option value="New York">TP. Hồ Chí Minh</option>
+                        <option value="Lisbon">Hà Nội</option>
+                        <option value="Stockholm">Đà nẵng</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <label class="form-label-outside">To</label>
+                    <div class="form-wrap form-wrap-inline">
+                      <select class="form-input" name="city-to">
+                        <option value="Chicago">Niigata</option>
+                        <option value="Madrid">Hiroshima</option>
+                        <option value="Paris">Nagasaki</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-6">
+                    <label class="form-label-outside">Depart Date</label>
+                    <div class="form-wrap form-wrap-validation">
+                      <input class="form-input" id="departDate" type="text" placeholder="Choose the date" readonly>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-6">
+                    <label class="form-label-outside">Duration</label>
+                    <div class="form-wrap form-wrap-validation">
+                      <select class="form-input" name="duration">
+                        <option value="Any length">Any length</option>
+                        <option value="2 days">2 days</option>
+                        <option value="3 days">3 days</option>
+                        <option value="4 days">4 days</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <label class="form-label-outside">Adults</label>
+                    <div class="form-wrap form-wrap-modern">
+                      <div class="stepper">
+                        <input class="form-input input-append stepper-input" id="adults" type="number" min="1" value="2">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <label class="form-label-outside">Children</label>
+                    <div class="form-wrap form-wrap-modern">
+                      <div class="stepper">
+                        <input class="form-input input-append stepper-input" id="children" type="number" min="0" value="0">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-wrap form-button">
+                  <button class="button button-block button-secondary" type="submit">Search Flight</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+          <script src="custom.js"></script> 
+          <!-- Link to your custom JavaScript file -->
+
+
+		      		<!-- Start Column 1 -->
+					  <div class="container container-wide">
+						<div class="row row-fix justify-content-xl-end row-30 text-center text-xl-left">
+						  <div class="col-xl-8">
+							<div class="parallax-text-wrap">
+							  <h3>Our Best Tours</h3>
+							</div>
+							<hr class="divider divider-decorate">
+						  </div>
+						  <div class="col-xl-3 text-xl-right"><a class="button button-secondary button-nina" href="#">view all tours</a></div>
+						</div>
+						<div class="row row-50">
+						  <div class="col-md-6 col-xl-4">
+							<article class="event-default-wrap">
+							  <div class="event-default">
+								<figure class="event-default-image"><img src="images/T01.jpeg" alt="" width="570" height="370">
+								</figure>
+								<div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
+							  </div>
+							  <div class="event-default-inner">
+								<h5><a class="event-default-title" href="#">Kabe, Hiroshima</a></h5><span class="heading-5">from 12.000.000 vnd</span>
+							  </div>
+							</article>
+						  </div>
+						  <div class="col-md-6 col-xl-4">
+							<article class="event-default-wrap">
+							  <div class="event-default">
+								<figure class="event-default-image"><img src="images/T02.jpeg" alt="" width="570" height="370">
+								</figure>
+								<div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
+							  </div>
+							  <div class="event-default-inner">
+								<h5><a class="event-default-title" href="#">2712 Takeshima, Yasutake-machi</a></h5><span class="heading-5">from 10.000.000 vnd</span>
+							  </div>
+							</article>
+						  </div>
+						  <div class="col-md-6 col-xl-4">
+							<article class="event-default-wrap">
+							  <div class="event-default">
+								<figure class="event-default-image"><img src="images/T03.jpeg" alt="" width="570" height="370">
+								</figure>
+								<div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
+							  </div>
+							  <div class="event-default-inner">
+								<h5><a class="event-default-title" href="#">Fukayasu-gun, Hiroshima</a></h5><span class="heading-5">from 13.000.000 vnd</span>
+							  </div>
+							</article>
+						  </div>
+						  <div class="col-md-6 col-xl-4">
+							<article class="event-default-wrap">
+							  <div class="event-default">
+								<figure class="event-default-image"><img src="images/T04.jpeg" alt="" width="570" height="370">
+								</figure>
+								<div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
+							  </div>
+							  <div class="event-default-inner">
+								<h5><a class="event-default-title" href="#">Sera-gun, Hiroshima</a></h5><span class="heading-5">from 35.000.000 vnd</span>
+							  </div>
+							</article>
+						  </div>
+						  <div class="col-md-6 col-xl-4">
+							<article class="event-default-wrap">
+							  <div class="event-default">
+								<figure class="event-default-image"><img src="images/T05.jpeg" alt="" width="570" height="370">
+								</figure>
+								<div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
+							  </div>
+							  <div class="event-default-inner">
+								<h5><a class="event-default-title" href="#">Nagaoka, Niigata</a></h5><span class="heading-5">from 20.000.000 vnd</span>
+							  </div>
+							</article>
+						  </div>
+						  <div class="col-md-6 col-xl-4">
+							<article class="event-default-wrap">
+							  <div class="event-default">
+								<figure class="event-default-image"><img src="images/T06.jpeg" alt="" width="570" height="370">
+								</figure>
+								<div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
+							  </div>
+							  <div class="event-default-inner">
+								<h5><a class="event-default-title" href="#">Ojiya-shi, Niigata</a></h5><span class="heading-5">from 15.000.000 vnd</span>
+							  </div>
+							</article>
+						  </div>
+						</div>
+					  </div>
+   <!-- Start Footer Section -->
+		<footer class="footer-section">
+			<div class="container relative">
+
+				<div class="sofa-img">
+					<img src="images/songngu.png" alt="Image" class="img-fluid">
+				</div>
+
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="subscription-form">
+							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
+
+							<form action="#" class="row g-3">
+								<div class="col-auto">
+									<input type="text" class="form-control" placeholder="Enter your name">
+								</div>
+								<div class="col-auto">
+									<input type="email" class="form-control" placeholder="Enter your email">
+								</div>
+								<div class="col-auto">
+									<button class="btn btn-primary">
+										<span class="fa fa-paper-plane"></span>
+									</button>
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="row g-5 mb-5">
+					<div class="col-lg-4">
+						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">ShopCaKoiT1<span>.</span></a></div>
+						<p class="mb-4">At ShopCaKoiT1, we understand that each Koi fish is not just a living creature, but also a living work of art. We provide a wide range of high-quality Koi fish, from Japanese Koi, Kohaku Koi to Showa Koi, to meet all customer preferences and requirements. Coming to us, you will find Koi fish that bring prosperity and peace to your family.</p>
+
+						<ul class="list-unstyled custom-social">
+							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-8">
+						<div class="row links-wrap">
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">About us</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Contact us</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">Support</a></li>
+									<li><a href="#">Knowledge base</a></li>
+									<li><a href="#">Live chat</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">Jobs</a></li>
+									<li><a href="#">Our team</a></li>
+									<li><a href="#">Leadership</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="#">Nordic Chair</a></li>
+									<li><a href="#">Kruzo Aero</a></li>
+									<li><a href="#">Ergonomic Chair</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="border-top copyright">
+					<div class="row pt-4">
+						<div class="col-lg-6">
+							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a>  Distributed By <a href="https://themewagon.com">ThemeWagon</a> <!-- License information: https://untree.co/license/ -->
+            </p>
+						</div>
+
+						<div class="col-lg-6 text-center text-lg-end">
+							<ul class="list-unstyled d-inline-flex ms-auto">
+								<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</footer>
+		<!-- End Footer Section -->	
+
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+
+</html>
