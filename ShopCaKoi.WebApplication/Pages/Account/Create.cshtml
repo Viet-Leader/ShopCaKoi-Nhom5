@@ -1,0 +1,48 @@
+﻿@page
+@model ShopCaKoi.WebApplication.Pages.Account.CreateModel
+
+<h4>ShopCaKoiAccount</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ShopCaKoiAccount.AccId" class="control-label"></label>
+                <input asp-for="ShopCaKoiAccount.AccId" class="form-control" />
+                <span asp-validation-for="ShopCaKoiAccount.AccId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShopCaKoiAccount.Password" class="control-label"></label>
+                <input asp-for="ShopCaKoiAccount.Password" class="form-control" />
+                <span asp-validation-for="ShopCaKoiAccount.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShopCaKoiAccount.EmailAddress" class="control-label"></label>
+                <input asp-for="ShopCaKoiAccount.EmailAddress" class="form-control" />
+                <span asp-validation-for="ShopCaKoiAccount.EmailAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShopCaKoiAccount.Description" class="control-label"></label>
+                <input asp-for="ShopCaKoiAccount.Description" class="form-control" />
+                <span asp-validation-for="ShopCaKoiAccount.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShopCaKoiAccount.Role" class="control-label"></label>
+                <input asp-for="ShopCaKoiAccount.Role" class="form-control" />
+                <span asp-validation-for="ShopCaKoiAccount.Role" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
