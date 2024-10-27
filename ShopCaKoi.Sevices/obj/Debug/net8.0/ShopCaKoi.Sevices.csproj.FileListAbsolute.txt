@@ -13,3 +13,4 @@ D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevi
 D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.Sevices\obj\Debug\net8.0\refint\ShopCaKoi.Sevices.dll
 D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.pdb
 D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.Sevices\obj\Debug\net8.0\ref\ShopCaKoi.Sevices.dll
+D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.sourcelink.json

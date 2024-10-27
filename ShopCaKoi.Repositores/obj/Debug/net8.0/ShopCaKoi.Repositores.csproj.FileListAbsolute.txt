@@ -12,3 +12,4 @@ D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.Repositores\obj\Debug\net8.0\refint\Sho
 D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.pdb
 D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.genruntimeconfig.cache
 D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.Repositores\obj\Debug\net8.0\ref\ShopCaKoi.Repositores.dll
+D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.sourcelink.json

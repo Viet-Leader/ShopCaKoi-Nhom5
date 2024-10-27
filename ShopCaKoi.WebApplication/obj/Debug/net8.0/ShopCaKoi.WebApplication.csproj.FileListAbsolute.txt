@@ -78,3 +78,4 @@ D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.WebApplication\obj\Debug\net8.0\refint\
 D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.WebApplication\obj\Debug\net8.0\ShopCaKoi.WebApplication.pdb
 D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.WebApplication\obj\Debug\net8.0\ShopCaKoi.WebApplication.genruntimeconfig.cache
 D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.WebApplication\obj\Debug\net8.0\ref\ShopCaKoi.WebApplication.dll
+D:\Project-ShopCaKoi\ShopCaKoi\ShopCaKoi.WebApplication\obj\Debug\net8.0\ShopCaKoi.WebApplication.sourcelink.json

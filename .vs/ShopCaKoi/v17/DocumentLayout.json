@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Project-ShopCaKoi\\ShopCaKoi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|d:\\project-shopcakoi\\shopcakoi\\shopcakoi.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|solutionrelative:shopcakoi.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|d:\\project-shopcakoi\\shopcakoi\\shopcakoi.webapplication\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|solutionrelative:shopcakoi.webapplication\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|d:\\project-shopcakoi\\shopcakoi\\shopcakoi.webapplication\\wwwroot\\cart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|solutionrelative:shopcakoi.webapplication\\wwwroot\\cart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D330321-921A-4049-91FC-AAECDD1C7707}|ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj|d:\\project-shopcakoi\\shopcakoi\\shopcakoi.sevices\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D330321-921A-4049-91FC-AAECDD1C7707}|ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj|solutionrelative:shopcakoi.sevices\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +31,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "ShopCaKoi.WebApplication\\Program.cs",
+              "ToolTip": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\Program.cs",
+              "RelativeToolTip": "ShopCaKoi.WebApplication\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T09:02:36.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "ShopCaKoi.WebApplication\\wwwroot\\index.html",
+              "ToolTip": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\index.html",
+              "RelativeToolTip": "ShopCaKoi.WebApplication\\wwwroot\\index.html",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-27T08:58:20.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cart.html",
+              "DocumentMoniker": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\cart.html",
+              "RelativeDocumentMoniker": "ShopCaKoi.WebApplication\\wwwroot\\cart.html",
+              "ToolTip": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.WebApplication\\wwwroot\\cart.html",
+              "RelativeToolTip": "ShopCaKoi.WebApplication\\wwwroot\\cart.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-27T08:48:08.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi.Sevices\\Class1.cs",
               "RelativeDocumentMoniker": "ShopCaKoi.Sevices\\Class1.cs",
@@ -26,8 +75,7 @@
               "RelativeToolTip": "ShopCaKoi.Sevices\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:33:55.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T17:33:55.256Z"
             }
           ]
         }
