@@ -13,6 +13,7 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
     public class CreateModel : PageModel
     {
         private readonly ITripService _service;
+        private readonly ShopCaKoi.Repositores.Entities.DataShopCaKoiContext _context;
 
         public CreateModel(ITripService service)
         {
@@ -37,8 +38,8 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
                 return Page();
             }
 
-            _context.Trips.Add(Trip);
-            await _context.SaveChangesAsync();
+            object value1 = _context.Trips.Add(Trip);
+            object value = await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");
         }

@@ -12,11 +12,12 @@ builder.Services.AddDbContext<DataShopCaKoiContext>();
 //DI Repository
 builder.Services.AddScoped<IShopCaKoiAccountRepository, ShopCaKoiAccountRepository>();
 builder.Services.AddScoped<ITripRepository, TripRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 //DI Service
 builder.Services.AddScoped<IShopCaKoiAccountService, ShopCaKoiAccountService>();
 builder.Services.AddScoped<ITripService, TripService>();
 builder.Services.AddScoped<ShopCaKoi.Repositores.ShopCaKoiAccountRepository>();
-
+builder.Services.AddScoped < ShopCaKoi.Repositores.OrderRepository>();
 
 var app = builder.Build();
 
