@@ -17,5 +17,7 @@ namespace ShopCaKoi.Repositores.Interfaces
         Boolean UpdTrip(Trip infor);
         Task<Trip> GetTripById(string id);
         Boolean TripExists(string id);
+        Task<IList<Trip>> GetTripsWithDetailsAsync();
+        Task<List<Trip>> SearchTripsAdvanced(string? farmName, string? koiSpecies, DateTime? startDate, DateTime? endDate, double? minPrice, double? maxPrice);
     }
 }

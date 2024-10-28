@@ -1,60 +1,76 @@
 ﻿@page
 @model ShopCaKoi.WebApplication.Pages.InforTrip.IndexModel
 
+<h2>Search Trips</h2> <!-- Form Tìm Kiếm -->
+<form method="get">
+    <div>
+        <label>Farm Name:</label>
+        <input type="text" name="farmName" value="@Model.FarmName" />
+    </div>
+    <div>
+        <label>Koi Species:</label>
+        <input type="text" name="koiSpecies" value="@Model.KoiSpecies" />
+    </div>
+    <div>
+        <label>Start Date:</label>
+        <input type="date" name="startDate" value="@Model.StartDate?.ToString("yyyy-MM-dd")" />
+    </div>
+    <div>
+        <label>End Date:</label>
+        <input type="date" name="endDate" value="@Model.EndDate?.ToString("yyyy-MM-dd")" />
+    </div>
+    <div>
+        <label>Min Price:</label>
+        <input type="number" name="minPrice" step="0.01" value="@Model.MinPrice" />
+    </div>
+    <div>
+        <label>Max Price:</label>
+        <input type="number" name="maxPrice" step="0.01" value="@Model.MaxPrice" />
+    </div>
+    <button type="submit">Search</button>
+</form>
+
+<!-- Chỉ hiển thị kết quả nếu có dữ liệu tìm kiếm -->
+@if (Model.Trip != null && Model.Trip.Any())
+{
+    <h3>Results</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Trip[0].DepartureDate)</th>
+                <th>@Html.DisplayNameFor(model => model.Trip[0].ArrivalDate)</th>
+                <th>@Html.DisplayNameFor(model => model.Trip[0].Price)</th>
+                <th>@Html.DisplayNameFor(model => model.Trip[0].Description)</th>
+                <th>@Html.DisplayNameFor(model => model.Trip[0].Farm)</th>
+                <th>@Html.DisplayNameFor(model => model.Trip[0].Koi)</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Trip)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.DepartureDate)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ArrivalDate)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Farm.FarmId)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Koi.KoiId)</td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.TripId">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.TripId">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.TripId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (Model.FarmName != null || Model.KoiSpecies != null || Model.StartDate.HasValue || Model.EndDate.HasValue || Model.MinPrice.HasValue || Model.MaxPrice.HasValue)
+{
+    <p>No results found for the search criteria.</p>
+}
+
 <p>
     <a asp-page="Create">Create New</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Trip[0].DepartureDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Trip[0].ArrivalDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Trip[0].Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Trip[0].Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Trip[0].Farm)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Trip[0].Koi)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Trip) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.DepartureDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ArrivalDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Farm.FarmId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Koi.KoiId)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.TripId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.TripId">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.TripId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>

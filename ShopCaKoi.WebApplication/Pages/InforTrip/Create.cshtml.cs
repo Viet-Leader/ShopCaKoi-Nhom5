@@ -13,16 +13,24 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
     public class CreateModel : PageModel
     {
         private readonly ITripService _service;
+        private readonly IKoiFarmService _koiFarmService;
+        private readonly IKoiService _koiService;
 
-        public CreateModel(ITripService service)
+        public CreateModel(ITripService service,IKoiFarmService koiFarmService,IKoiService koiService)
         {
             _service = service;
+            _koiFarmService = koiFarmService;
+            _koiService = koiService;
         }
-
-        public IActionResult OnGet()
+       
+        public async Task<IActionResult> OnGetAsync()
         {
-        ViewData["FarmId"] = new SelectList(_context.KoiFarms, "FarmId", "FarmId");
-        ViewData["KoiId"] = new SelectList(_context.Kois, "KoiId", "KoiId");
+            var koiFarms = await _koiFarmService.GetKoiFarmsAsync();
+            var kois = await _koiService.GetKoisAsync();
+
+            ViewData["FarmId"] = new SelectList(koiFarms, "FarmId", "FarmId");
+            ViewData["KoiId"] = new SelectList(kois, "KoiId", "KoiId");
+
             return Page();
         }
 
@@ -30,15 +38,19 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
         public Trip Trip { get; set; } = default!;
 
         // For more information, see https://aka.ms/RazorPagesCRUD.
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPost()
         {
             if (!ModelState.IsValid)
             {
                 return Page();
             }
 
-            _context.Trips.Add(Trip);
-            await _context.SaveChangesAsync();
+            bool isAdded = _service.AddTrip(Trip);
+            if (!isAdded)
+            {
+                ModelState.AddModelError(string.Empty, "Lỗi khi thêm tài khoản. Vui lòng thử lại.");
+                return Page();
+            }
 
             return RedirectToPage("./Index");
         }
