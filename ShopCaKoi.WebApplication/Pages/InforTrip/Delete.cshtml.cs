@@ -6,16 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using ShopCaKoi.Repositores.Entities;
+using ShopCaKoi.Sevices.Interfaces;
 
 namespace ShopCaKoi.WebApplication.Pages.InforTrip
 {
     public class DeleteModel : PageModel
     {
-        private readonly ShopCaKoi.Repositores.Entities.DataShopCaKoiContext _context;
+        private readonly ITripService _service;
 
-        public DeleteModel(ShopCaKoi.Repositores.Entities.DataShopCaKoiContext context)
+        public DeleteModel(ITripService service)
         {
-            _context = context;
+            _service = service;
         }
 
         [BindProperty]
@@ -28,7 +29,7 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
                 return NotFound();
             }
 
-            var trip = await _context.Trips.FirstOrDefaultAsync(m => m.TripId == id);
+            var trip = await _service.GetTripById(id);
 
             if (trip == null)
             {
@@ -48,13 +49,7 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
                 return NotFound();
             }
 
-            var trip = await _context.Trips.FindAsync(id);
-            if (trip != null)
-            {
-                Trip = trip;
-                _context.Trips.Remove(Trip);
-                await _context.SaveChangesAsync();
-            }
+            _service.DelTrip(id);
 
             return RedirectToPage("./Index");
         }

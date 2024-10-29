@@ -7,16 +7,21 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ShopCaKoi.Repositores.Entities;
+using ShopCaKoi.Sevices.Interfaces;
 
 namespace ShopCaKoi.WebApplication.Pages.InforTrip
 {
     public class EditModel : PageModel
     {
-        private readonly ShopCaKoi.Repositores.Entities.DataShopCaKoiContext _context;
+        private readonly ITripService _service;
+        private readonly IKoiFarmService _koiFarmService;
+        private readonly IKoiService _koiService;
 
-        public EditModel(ShopCaKoi.Repositores.Entities.DataShopCaKoiContext context)
+        public EditModel(ITripService service, IKoiFarmService koiFarmService, IKoiService koiService)
         {
-            _context = context;
+            _service = service;
+            _koiFarmService = koiFarmService;
+            _koiService = koiService;
         }
 
         [BindProperty]
@@ -29,14 +34,16 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
                 return NotFound();
             }
 
-            var trip =  await _context.Trips.FirstOrDefaultAsync(m => m.TripId == id);
-            if (trip == null)
+            Trip = await _service.GetTripById(id);
+            if (Trip == null)
             {
                 return NotFound();
             }
-            Trip = trip;
-           ViewData["FarmId"] = new SelectList(_context.KoiFarms, "FarmId", "FarmId");
-           ViewData["KoiId"] = new SelectList(_context.Kois, "KoiId", "KoiId");
+            var koiFarms = await _koiFarmService.GetKoiFarmsAsync();
+            var kois = await _koiService.GetKoisAsync();
+
+            ViewData["FarmId"] = new SelectList(koiFarms, "FarmId", "FarmId");
+            ViewData["KoiId"] = new SelectList(kois, "KoiId", "KoiId");
             return Page();
         }
 
@@ -49,30 +56,31 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
                 return Page();
             }
 
-            _context.Attach(Trip).State = EntityState.Modified;
-
             try
             {
-                await _context.SaveChangesAsync();
+                // Kiểm tra xem tài khoản có tồn tại thông qua service
+                if (!_service.TripExists(Trip.TripId))
+                {
+                    ModelState.AddModelError(string.Empty, "Tài khoản không tồn tại. Không thể cập nhật.");
+                    return Page(); // Trả về trang hiện tại với thông báo lỗi
+                }
+
+                bool isUpdated = _service.UpdTrip(Trip);
+                if (!isUpdated)
+                {
+                    ModelState.AddModelError(string.Empty, "Cập nhật không thành công. Vui lòng thử lại.");
+                    return Page();
+                }
             }
-            catch (DbUpdateConcurrencyException)
+            catch (Exception ex)
             {
-                if (!TripExists(Trip.TripId))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                // Xử lý lỗi nếu cần
+                ModelState.AddModelError(string.Empty, "Có lỗi xảy ra: " + ex.Message);
+                return Page();
             }
 
             return RedirectToPage("./Index");
         }
 
-        private bool TripExists(string id)
-        {
-            return _context.Trips.Any(e => e.TripId == id);
-        }
     }
 }

@@ -6,16 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using ShopCaKoi.Repositores.Entities;
+using ShopCaKoi.Sevices.Interfaces;
 
 namespace ShopCaKoi.WebApplication.Pages.InforTrip
 {
     public class DetailsModel : PageModel
     {
-        private readonly ShopCaKoi.Repositores.Entities.DataShopCaKoiContext _context;
+        private readonly ITripService _service;
 
-        public DetailsModel(ShopCaKoi.Repositores.Entities.DataShopCaKoiContext context)
+        public DetailsModel(ITripService service)
         {
-            _context = context;
+            _service = service;
         }
 
         public Trip Trip { get; set; } = default!;
@@ -27,15 +28,13 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
                 return NotFound();
             }
 
-            var trip = await _context.Trips.FirstOrDefaultAsync(m => m.TripId == id);
-            if (trip == null)
+            // Sử dụng dịch vụ để lấy tài khoản
+            Trip = await _service.GetTripById(id);
+            if (Trip == null)
             {
                 return NotFound();
             }
-            else
-            {
-                Trip = trip;
-            }
+
             return Page();
         }
     }

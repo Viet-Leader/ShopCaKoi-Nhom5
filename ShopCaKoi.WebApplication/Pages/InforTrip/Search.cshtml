@@ -1,0 +1,69 @@
+﻿@page
+@model ShopCaKoi.WebApplication.Pages.InforTrip.SearchModel
+@{
+    ViewData["Title"] = "Search Trips";
+}
+
+<h2>Search Trips</h2>
+
+<form method="get">
+    <div>
+        <label>Farm Name:</label>
+        <input type="text" name="farmName" value="@Model.FarmName" />
+    </div>
+    <div>
+        <label>Koi Species:</label>
+        <input type="text" name="koiSpecies" value="@Model.KoiSpecies" />
+    </div>
+    <div>
+        <label>Start Date:</label>
+        <input type="date" name="startDate" value="@Model.StartDate?.ToString("yyyy-MM-dd")" />
+    </div>
+    <div>
+        <label>End Date:</label>
+        <input type="date" name="endDate" value="@Model.EndDate?.ToString("yyyy-MM-dd")" />
+    </div>
+    <div>
+        <label>Min Price:</label>
+        <input type="number" name="minPrice" step="0.01" value="@Model.MinPrice" />
+    </div>
+    <div>
+        <label>Max Price:</label>
+        <input type="number" name="maxPrice" step="0.01" value="@Model.MaxPrice" />
+    </div>
+    <button type="submit">Search</button>
+</form>
+
+@if (Model.Trips != null && Model.Trips.Any())
+{
+    <h3>Results</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Trip ID</th>
+                <th>Farm Name</th>
+                <th>Koi Species</th>
+                <th>Departure Date</th>
+                <th>Arrival Date</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var trip in Model.Trips)
+            {
+                <tr>
+                    <td>@trip.TripId</td>
+                    <td>@trip.Farm?.Name</td>
+                    <td>@trip.Koi?.Species</td>
+                    <td>@trip.DepartureDate</td>
+                    <td>@trip.ArrivalDate</td>
+                    <td>@trip.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No results found.</p>
+}
