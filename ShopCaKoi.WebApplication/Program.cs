@@ -13,11 +13,14 @@ builder.Services.AddDbContext<DataShopCaKoiContext>();
 builder.Services.AddScoped<IShopCaKoiAccountRepository, ShopCaKoiAccountRepository>();
 builder.Services.AddScoped<ITripRepository, TripRepository>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IKoiRepository, KoiRepository>();
+builder.Services.AddScoped<IKoiFarmRepository, KoiFarmRepository>();
 //DI Service
 builder.Services.AddScoped<IShopCaKoiAccountService, ShopCaKoiAccountService>();
 builder.Services.AddScoped<ITripService, TripService>();
-builder.Services.AddScoped<ShopCaKoi.Repositores.ShopCaKoiAccountRepository>();
 builder.Services.AddScoped < ShopCaKoi.Repositores.OrderRepository>();
+builder.Services.AddScoped<IKoiService, KoiService>();
+builder.Services.AddScoped<IKoiFarmService, KoiFarmService>();
 
 var app = builder.Build();
 
