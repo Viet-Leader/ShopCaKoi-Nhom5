@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShopCaKoi.Sevices
-build_property.ProjectDir = D:\Github\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\
+build_property.ProjectDir = C:\CAKOI\project\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

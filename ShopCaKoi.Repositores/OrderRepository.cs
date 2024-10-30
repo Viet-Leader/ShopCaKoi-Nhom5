@@ -1,20 +1,15 @@
-﻿using ShopCaKoi.Repositores.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using ShopCaKoi.Repositores.Entities;
+using ShopCaKoi.Repositores.Interfaces;
+
 namespace ShopCaKoi.Repositores
 {
     public class OrderRepository : IOrderRepository
     {
-        private readonly List<OrderKoi> _orders;
-
-        public OrderRepository()
-        {
-            _orders = new List<OrderKoi>(); // Giả định danh sách đơn hàng trong bộ nhớ
-        }
+        private List<OrderKoi> _orders = new List<OrderKoi>();
 
         public async Task<List<OrderKoi>> GetAllOrders()
         {
@@ -29,9 +24,7 @@ namespace ShopCaKoi.Repositores
 
         public async Task<bool> AddOrder(OrderKoi order)
         {
-            if (OrderExists(order.OrderId))
-                return false;
-
+            if (OrderExists(order.OrderId)) return false;
             _orders.Add(order);
             return await Task.FromResult(true);
         }
@@ -39,29 +32,21 @@ namespace ShopCaKoi.Repositores
         public async Task<bool> UpdateOrder(OrderKoi order)
         {
             var existingOrder = _orders.FirstOrDefault(o => o.OrderId == order.OrderId);
-            if (existingOrder == null)
-                return await Task.FromResult(false);
-
-            existingOrder.CustomerId = order.CustomerId;
-            existingOrder.QuotationId = order.QuotationId;
-            existingOrder.PaymentStatus = order.PaymentStatus;
-            existingOrder.OrderDate = order.OrderDate;
-            existingOrder.KoiId = order.KoiId;
-            existingOrder.Quantity = order.Quantity;
+            if (existingOrder == null) return false;
+            _orders[_orders.IndexOf(existingOrder)] = order;
             return await Task.FromResult(true);
         }
 
         public async Task<bool> DeleteOrder(OrderKoi order)
         {
-            return await Task.FromResult(_orders.Remove(order));
+            var result = _orders.Remove(order);
+            return await Task.FromResult(result);
         }
 
         public async Task<bool> DeleteOrder(string orderId)
         {
             var order = _orders.FirstOrDefault(o => o.OrderId == orderId);
-            if (order == null)
-                return await Task.FromResult(false);
-
+            if (order == null) return false;
             _orders.Remove(order);
             return await Task.FromResult(true);
         }
@@ -69,9 +54,7 @@ namespace ShopCaKoi.Repositores
         public async Task<bool> UpdatePaymentStatus(string orderId, string paymentStatus)
         {
             var order = _orders.FirstOrDefault(o => o.OrderId == orderId);
-            if (order == null)
-                return await Task.FromResult(false);
-
+            if (order == null) return false;
             order.PaymentStatus = paymentStatus;
             return await Task.FromResult(true);
         }
@@ -82,4 +65,3 @@ namespace ShopCaKoi.Repositores
         }
     }
 }
-

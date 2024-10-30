@@ -1,0 +1,6 @@
+@ShopCaKoi.WebApplication_HostAddress = http://localhost:5056
+
+GET {{ShopCaKoi.WebApplication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

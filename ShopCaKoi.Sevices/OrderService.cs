@@ -1,71 +1,59 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using ShopCaKoi.Repositores.Entities;
 using ShopCaKoi.Repositores.Interfaces;
 using ShopCaKoi.Sevices.Interfaces;
 
 namespace ShopCaKoi.Services
 {
-    public class OrderService
+    public class OrderService : IOrderService
     {
-        public string orderID { get; set; }
-        public Tour? tour { get; set; }
-        public List<Koi> koiList { get; set; }
-        public string status { get; set; }
-        public Quotation? quotation { get; set; }
-        public string paymentStatus { get; set; }
+        private readonly IOrderRepository _orderRepository;
 
-        // Constructor
-        public OrderService()
+        public OrderService(IOrderRepository orderRepository)
         {
-            koiList = new List<Koi>();
-            status = "Pending";
-            paymentStatus = "Unpaid";
+            _orderRepository = orderRepository;
         }
 
-        // Method to update payment status
-        public void UpdatePaymentStatus(string paymentStatus)
+        public async Task<List<OrderKoi>> GetAllOrders()
         {
-            this.paymentStatus = paymentStatus;
+            return await _orderRepository.GetAllOrders();
         }
 
-        // Method to calculate total price for all Koi in the order
-        public double calculateTotalPrice()
+        public async Task<OrderKoi> GetOrderById(string orderId)
         {
-            double totalPrice = 0;
-            foreach (var koi in koiList)
-            {
-                totalPrice += koi.price();
-            }
-            return totalPrice;
-        }
-    }
-    
-
-
-    public class Tour
-    {
-        public string nameTour { get; set; }
-    }
-
-    public class Koi
-    {
-        public int ID { get; set; }
-        public double size { get; set; }
-
-        internal double price()
-        {
-            throw new NotImplementedException();
+            return await _orderRepository.GetOrderById(orderId);
         }
 
-        // Method to calculate the price for a single Koi
+        public async Task<bool> AddOrder(OrderKoi order)
+        {
+            return await _orderRepository.AddOrder(order);
+        }
 
-    }
+        public async Task<bool> UpdateOrder(OrderKoi order)
+        {
+            return await _orderRepository.UpdateOrder(order);
+        }
 
-    public class Quotation
-    {
-        public double price { get; set; }
+        public async Task<bool> DeleteOrder(OrderKoi order)
+        {
+            return await _orderRepository.DeleteOrder(order);
+        }
+
+        public async Task<bool> DeleteOrder(string orderId)
+        {
+            return await _orderRepository.DeleteOrder(orderId);
+        }
+
+        public async Task<bool> UpdatePaymentStatus(string orderId, string paymentStatus)
+        {
+            return await _orderRepository.UpdatePaymentStatus(orderId, paymentStatus);
+        }
+
+        public bool OrderExists(string orderId)
+        {
+            return _orderRepository.OrderExists(orderId);
+        }
     }
 }

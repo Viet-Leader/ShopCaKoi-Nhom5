@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShopCaKoi.WebApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d5a967b4c5f0cbb39a4dbba0f34a3016250b87e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b9646eb53545804059ee98e3fae8aebd770b53f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShopCaKoi.WebApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShopCaKoi.WebApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
