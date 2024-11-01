@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ShopCaKoi.Sevices.Interfaces
 {
-    internal interface IOrderService
+    public interface IOrderService
     {
         Task<List<OrderKoi>> GetAllOrders();
         Task<OrderKoi> GetOrderById(string orderId);

@@ -80,7 +80,7 @@ namespace ShopCaKoi.Repositores
         {
             return await _dbContext.Trips
                 .Include(t => t.Farm)
-                .Include(t => t.Koi)
+                .ThenInclude(t => t.Koi)
                 .ToListAsync();
         }
 
@@ -107,32 +107,14 @@ namespace ShopCaKoi.Repositores
             return query.ToList();
         }
 
-        public Task<List<Trip>> SearchTripsAdvanced(string? farmName, string? koiSpecies, DateTime? startDate, DateTime? endDate, double? minPrice, double? maxPrice)
+        public async Task<List<Trip>> SearchTripsAsync(string keyword)
         {
-            var query = _dbContext.Trips
-        .Include(t => t.Farm)
-        .Include(t => t.Koi)
-        .AsQueryable();
+            var trips = await _dbContext.Trips
+                .Include(t => t.Farm)
+                .ThenInclude(t => t.Koi)
+                .Where(t => t.Farm.Name.ToUpper().Contains(keyword) || t.Farm.Koi.Species.ToUpper().Contains(keyword)).ToListAsync();
+            return trips;
 
-            if (!string.IsNullOrEmpty(farmName))
-                query = query.Where(t => t.Farm.Name.Contains(farmName));
-
-            if (!string.IsNullOrEmpty(koiSpecies))
-                query = query.Where(t => t.Koi.Species.Contains(koiSpecies));
-
-            if (startDate.HasValue)
-                query = query.Where(t => t.DepartureDate >= DateOnly.FromDateTime(startDate.Value));
-
-            if (endDate.HasValue)
-                query = query.Where(t => t.ArrivalDate <= DateOnly.FromDateTime(endDate.Value));
-
-            if (minPrice.HasValue)
-                query = query.Where(t => t.Price >= minPrice.Value);
-
-            if (maxPrice.HasValue)
-                query = query.Where(t => t.Price <= maxPrice.Value);
-
-            return query.ToListAsync();
         }
 
         public bool TripExists(string id)
