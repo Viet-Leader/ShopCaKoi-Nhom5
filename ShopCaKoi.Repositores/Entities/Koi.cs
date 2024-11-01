@@ -14,6 +14,4 @@ public partial class Koi
     public decimal? Price { get; set; }
 
     public virtual ICollection<KoiFarm> KoiFarms { get; set; } = new List<KoiFarm>();
-
-    public virtual ICollection<Trip> Trips { get; set; } = new List<Trip>();
 }

@@ -2772,11 +2772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj",
+      "projectUniqueName": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj",
       "projectName": "ShopCaKoi.Sevices",
-      "projectPath": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj",
+      "projectPath": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj",
       "packagesPath": "C:\\Users\\Quốc Việt\\.nuget\\packages\\",
-      "outputPath": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\obj\\",
+      "outputPath": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Quốc Việt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2793,8 +2793,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj": {
-              "projectPath": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj"
+            "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj": {
+              "projectPath": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj"
             }
           }
         }

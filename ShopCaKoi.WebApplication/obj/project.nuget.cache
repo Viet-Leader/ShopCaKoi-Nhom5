@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fFMYSqLawH+GQbZG7Ea3wWVSI0UjfIYa1gnHfgnu0hu42dqUPTw6aBF+PaXXzbsdweQPU3Zc0ynF/vazvuzvrg==",
+  "dgSpecHash": "KJoRmpsmw7smDO3Te9ICGGu9ttshlNTtz3c7mxIuJO+zxFGMVPXPI2BFsdoONaBuRDZh3drZp0PHxMgbSBoRfQ==",
   "success": true,
-  "projectFilePath": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj",
+  "projectFilePath": "D:\\Project-ShopCaKoi\\ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Quốc Việt\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Quốc Việt\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
