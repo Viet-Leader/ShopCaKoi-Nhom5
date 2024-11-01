@@ -63,9 +63,9 @@ namespace ShopCaKoi.Sevices
             return _repository.GetTripsWithDetailsAsync();
         }
 
-        public Task<List<Trip>> SearchTripsAdvanced(string? farmName, string? koiSpecies, DateTime? startDate, DateTime? endDate, double? minPrice, double? maxPrice)
+        public Task<List<Trip>> SearchTripsAsync(string keyword)
         {
-            return _repository.SearchTripsAdvanced(farmName, koiSpecies, startDate, endDate, minPrice, maxPrice);
+            return _repository.SearchTripsAsync(keyword);
         }
     }
 }

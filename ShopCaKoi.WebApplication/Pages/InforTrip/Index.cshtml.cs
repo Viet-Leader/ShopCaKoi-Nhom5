@@ -36,16 +36,7 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
 
         public async Task OnGetAsync()
         {
-            // Chỉ thực hiện tìm kiếm nếu có ít nhất một tiêu chí được cung cấp
-            if (!string.IsNullOrWhiteSpace(FarmName) || !string.IsNullOrWhiteSpace(KoiSpecies) ||
-                StartDate.HasValue || EndDate.HasValue || MinPrice.HasValue || MaxPrice.HasValue)
-            {
-                Trip = await _service.SearchTripsAdvanced(FarmName, KoiSpecies, StartDate, EndDate, MinPrice, MaxPrice);
-            }
-            else
-            {
-                Trip = await _service.GetTripsWithDetailsAsync(); // Lấy tất cả các chuyến đi nếu không có tiêu chí tìm kiếm
-            }
+            Trip = await _service.GetTripsWithDetailsAsync();
         }
     }
 }

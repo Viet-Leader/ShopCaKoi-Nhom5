@@ -1,0 +1,162 @@
+﻿@page
+@model ShopCaKoi.WebApplication.Pages.Search.SearchModel
+@{
+	ViewData["Title"] = "Search";
+}
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="favicon.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap4" />
+
+	<!-- Bootstrap CSS -->
+	<link href="/Pages/Search/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link href="/Pages/Search/tiny-slider.css" rel="stylesheet">
+	<link href="/Pages/Search/style.css" rel="stylesheet">
+	<title>ShopCaKoiT1</title>
+</head>
+<!-- Header/Navigation -->
+<nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark">
+	<div class="container">
+		<a class="navbar-brand" href="index.html">ShopCaKoiT1<span>.</span></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
+				aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarsFurni">
+			<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+				<li class="nav-item active"><a class="nav-link" href="/index.html">Home</a></li>
+				<li><a class="nav-link" href="/shop.html">Buying Fish</a></li>
+				<li><a class="nav-link" href="/shop.html">Buying Trip</a></li>
+				<li><a class="nav-link" href="/services.html">Services</a></li>
+				<li><a class="nav-link" href="/contact.html">Contact us</a></li>
+			</ul>
+			<ul class="custom-navbar-cta navbar-nav ms-5">
+				<li>
+					<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="images/user.svg"></a>
+
+					<!-- Motal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+						 aria-hidden="true">
+
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header border-bottom-0">
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<div class="tabs-listing">
+										<nav>
+
+											<div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+												<button class="nav-link text-capitalize active" id="nav-sign-in-tab" data-bs-toggle="tab"
+														data-bs-target="#nav-sign-in" type="button" role="tab" aria-controls="nav-sign-in"
+														aria-selected="true">
+													Sign In
+												</button>
+												<button class="nav-link text-capitalize" id="nav-register-tab" data-bs-toggle="tab"
+														data-bs-target="#nav-register" type="button" role="tab" aria-controls="nav-register"
+														aria-selected="false">
+													Register
+												</button>
+											</div>
+										</nav>
+										<div class="tab-content" id="nav-tabContent">
+											<div class="tab-pane fade active show" id="nav-sign-in" role="tabpanel"
+												 aria-labelledby="nav-sign-in-tab">
+												<div class="form-group py-3">
+													<label class="mb-2" for="sign-in">Username or email address *</label>
+													<input type="text" minlength="2" name="username" placeholder="Your Username"
+														   class="form-control w-100 rounded-3 p-3" required>
+												</div>
+												<div class="form-group pb-3">
+													<label class="mb-2" for="sign-in">Password *</label>
+													<input type="password" minlength="2" name="password" placeholder="Your Password"
+														   class="form-control w-100 rounded-3 p-3" required>
+												</div>
+												<label class="py-3">
+													<input type="checkbox" required="" class="d-inline">
+													<span class="label-body">Remember me</span>
+													<span class="label-body"><a href="#" class="fw-bold">Forgot Password</a></span>
+												</label>
+												<button type="submit" name="submit" class="btn btn-dark w-100 my-3">Login</button>
+											</div>
+											<div class="tab-pane fade" id="nav-register" role="tabpanel"
+												 aria-labelledby="nav-register-tab">
+												<div class="form-group py-3">
+													<label class="mb-2" for="register">Your email address *</label>
+													<input type="text" minlength="2" name="username" placeholder="Your Email Address"
+														   class="form-control w-100 rounded-3 p-3" required>
+												</div>
+												<div class="form-group pb-3">
+													<label class="mb-2" for="sign-in">Password *</label>
+													<input type="password" minlength="2" name="password" placeholder="Your Password"
+														   class="form-control w-100 rounded-3 p-3" required>
+												</div>
+												<label class="py-3">
+													<input type="checkbox" required="" class="d-inline">
+													<span class="label-body">
+														I agree to the <a href="#" class="fw-bold">
+															Privacy
+															Policy
+														</a>
+													</span>
+												</label>
+												<button type="submit" name="submit" class="btn btn-dark w-100 my-3">Register</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+				<li><a href="#" class="search-item border-0"><img width="25" height="50" src="images/search.svg"></a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<h2>Search Results</h2>
+
+<!-- Kết quả tìm kiếm -->
+@if (Model.SearchResults != null && Model.SearchResults.Any())
+{
+	<table>
+		<thead>
+			<tr>
+				<th>Trip ID</th>
+				<th>Farm Name</th>
+				<th>Koi Species</th>
+				<th>Departure Date</th>
+				<th>Arrival Date</th>
+				<th>Price</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var trip in Model.SearchResults)
+			{
+				<tr>
+					<td>@trip.TripId</td>
+					<td>@trip.Farm.Name</td>
+					<td>@trip.Farm.Koi.Species</td>
+					<td>@trip.DepartureDate?.ToString("dd/MM/yyyy")</td>
+					<td>@trip.ArrivalDate?.ToString("dd/MM/yyyy")</td>
+					<td>@trip.Price</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+else
+{
+	<p>Bạn không tìm thấy kết quả mong muốn.</p>
+}
