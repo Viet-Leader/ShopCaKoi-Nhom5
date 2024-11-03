@@ -7,10 +7,28 @@ using ShopCaKoi.Repositores.Entities;
 
 namespace ShopCaKoi.Sevices.Interfaces
 {
-	public interface ICustomerService
-	{
-		Task<List<Customer>> GetCustomerWithDetailAsync();
-		Boolean AddCustomer(Customer infor);
-		Boolean CustomerExists(string id);
-	}
+    public interface ICustomerService
+    {
+        Task<List<Customer>> GetCustomerWithDetailAsync();
+        Boolean AddCustomer(Customer infor);
+        Boolean CustomerExists(string id);
+
+        // Lấy thông tin khách hàng theo ID
+        Task<Customer?> GetCustomerByIdAsync(string customerId);
+
+        // Cập nhật thông tin khách hàng
+        Task<Boolean> UpdateCustomerAsync(Customer customer);
+
+        // Xóa khách hàng dựa trên ID
+        Task<Boolean> DeleteCustomerAsync(string customerId);
+
+        // Lấy danh sách đơn hàng cá của khách hàng
+        Task<List<OrderKoi>> GetCustomerKoiOrdersAsync(string customerId);
+
+        // Lấy danh sách đơn hàng chuyến đi của khách hàng
+        Task<List<OrderTrip>> GetCustomerTripOrdersAsync(string customerId);
+
+        // Lấy danh sách phản hồi của khách hàng
+        Task<List<Feedback>> GetCustomerFeedbacksAsync(string customerId);
+    }
 }

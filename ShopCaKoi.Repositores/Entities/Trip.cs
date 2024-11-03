@@ -22,6 +22,6 @@ public partial class Trip
     public virtual ICollection<Booking> Bookings { get; set; } = new List<Booking>();
 
     public virtual KoiFarm? Farm { get; set; }
-
+    public virtual Koi? Koi { get; set; }
     public virtual ICollection<OrderTrip> OrderTrips { get; set; } = new List<OrderTrip>();
 }
