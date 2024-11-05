@@ -21,9 +21,9 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 		<link href="css/tiny-slider.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-		<title>ShopCaKoiT1</title>
+		<title>ShopCaKoiT1-Trip</title>
 		<script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.9/dist/flatpickr.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.9/dist/flatpickr.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.9/dist/flatpickr.min.css">
 
 	</head>
 
@@ -54,81 +54,66 @@
 						<li class="nav-item ">
 							<a class="nav-link" href="index.html">Home</a>
 						</li>
-                        <li><a class="nav-link" href="shop.html">Buying Fish</a></li>
-                        <li class="active"><a class="nav-link" href="buyTrip.html">Buying Trip</a></li>
+                        <li><a class="nav-link" href="shop.html"> Fish</a></li>
+                        <li class="active"><a class="nav-link" href="buyTrip.html"> Trip</a></li>
+						<li><a class="nav-link" href="farm.html">Farm</a></li>
 						<li><a class="nav-link" href="services.html">Services</a></li>
 						<li><a class="nav-link" href="contact.html">Contact us</a></li>
 					</ul>
 					<ul class="custom-navbar-cta navbar-nav ms-5">
-						<li><a class="nav-link" href="#"data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="images/user.svg"></a>
+						<li>
+							<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#authModal"><img src="/images/user.svg"></a>
 						
-							<!-- Motal -->
-							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-							aria-hidden="true">
-
-							<div class="modal-dialog">
-							  <div class="modal-content">
-								<div class="modal-header border-bottom-0">
-								  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-								</div>
-								<div class="modal-body">
-								  <div class="tabs-listing">
-									<nav>
-										
-									  <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
-										<button class="nav-link text-capitalize active" id="nav-sign-in-tab" data-bs-toggle="tab"
-										  data-bs-target="#nav-sign-in" type="button" role="tab" aria-controls="nav-sign-in"
-										  aria-selected="true">Sign In</button>
-										<button class="nav-link text-capitalize" id="nav-register-tab" data-bs-toggle="tab"
-										  data-bs-target="#nav-register" type="button" role="tab" aria-controls="nav-register"
-										  aria-selected="false">Register</button>
-									  </div>
-									</nav>
-									<div class="tab-content" id="nav-tabContent">
-									  <div class="tab-pane fade active show" id="nav-sign-in" role="tabpanel"
-										aria-labelledby="nav-sign-in-tab">
-										<div class="form-group py-3">
-										  <label class="mb-2" for="sign-in">Username or email address *</label>
-										  <input type="text" minlength="2" name="username" placeholder="Your Username"
-											class="form-control w-100 rounded-3 p-3" required>
+							<!-- Modal -->
+							<div class="modal fade" id="authModal" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header border-bottom-0">
+											<h5 class="modal-title" id="authModalLabel">Tài Khoản</h5>
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 										</div>
-										<div class="form-group pb-3">
-										  <label class="mb-2" for="sign-in">Password *</label>
-										  <input type="password" minlength="2" name="password" placeholder="Your Password"
-											class="form-control w-100 rounded-3 p-3" required>
+										<div class="modal-body">
+											<nav>
+												<div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+													<button class="nav-link active" id="nav-sign-in-tab" data-bs-toggle="tab"
+															data-bs-target="#nav-sign-in" type="button" role="tab"
+															aria-controls="nav-sign-in" aria-selected="true">
+														Đăng Nhập
+													</button>                                
+												</div>
+											</nav>
+											<div class="tab-content" id="nav-tabContent">
+												<!-- Sign In Tab -->
+												<div class="tab-pane fade show active" id="nav-sign-in" role="tabpanel" aria-labelledby="nav-sign-in-tab">
+													<form>
+														<div class="form-group py-3">
+															<label class="mb-2" for="sign-in-username">Email *</label>
+															<input type="text" minlength="2" name="username" id="sign-in-username"
+																   placeholder="Nhập Email" class="form-control w-100 rounded-3 p-3" required>
+														</div>
+														<div class="form-group pb-3">
+															<label class="mb-2" for="sign-in-password">Mật Khẩu *</label>
+															<input type="password" minlength="2" name="password" id="sign-in-password"
+																   placeholder="Nhập Mật Khẩu" class="form-control w-100 rounded-3 p-3" required>
+														</div>
+														<div class="form-check py-3">
+															<input type="checkbox" id="rememberMe" class="form-check-input">
+															<label class="form-check-label" for="rememberMe">Lưu Mật Khẩu</label>
+														</div>
+														<div class="d-flex justify-content-between align-items-center">
+															<button type="submit" class="btn btn-dark w-100 my-3">Login</button>
+														</div>
+														<div class="text-center">
+															<a href="#" class="fw-bold d-block mb-3">Quên Mật Khẩu</a>
+															<p>Nếu chưa có tài khoản, <a href="/Pages/InforCus/Create" class="fw-bold">Đăng Ký</a></p>
+														</div>
+													</form>
+												</div>
+											</div>
 										</div>
-										<label class="py-3">
-										  <input type="checkbox" required="" class="d-inline">
-										  <span class="label-body">Remember me</span>
-										  <span class="label-body"><a href="#" class="fw-bold">Forgot Password</a></span>
-										</label>
-										<button type="submit" name="submit" class="btn btn-dark w-100 my-3">Login</button>
-									  </div>
-									  <div class="tab-pane fade" id="nav-register" role="tabpanel"
-										aria-labelledby="nav-register-tab">
-										<div class="form-group py-3">
-										  <label class="mb-2" for="register">Your email address *</label>
-										  <input type="text" minlength="2" name="username" placeholder="Your Email Address"
-											class="form-control w-100 rounded-3 p-3" required>
-										</div>
-										<div class="form-group pb-3">
-										  <label class="mb-2" for="sign-in">Password *</label>
-										  <input type="password" minlength="2" name="password" placeholder="Your Password"
-											class="form-control w-100 rounded-3 p-3" required>
-										</div>
-										<label class="py-3">
-										  <input type="checkbox" required="" class="d-inline">
-										  <span class="label-body">I agree to the <a href="#" class="fw-bold">Privacy
-											  Policy</a></span>
-										</label>
-										<button type="submit" name="submit" class="btn btn-dark w-100 my-3">Register</button>
-									  </div>
 									</div>
-								  </div>
 								</div>
-							  </div>
 							</div>
-						  </div>
 						</li>
 
 						<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
@@ -146,7 +131,7 @@
 					<div class="row justify-content-between">
 						<div class="col-lg-5">
 							<div class="intro-excerpt">
-								<h1>Shop</h1>
+								<h1>Trip</h1>
 							</div>
 						</div>
 						<div class="col-lg-7">
@@ -156,79 +141,10 @@
 				</div>
 			</div>
 		<!-- End Hero Section -->
-            <!--Dặt lịch-->
-		<div class="col-lg-6 col-xxl-5">
-            <div class="form-request form-request-modern bg-gray-lighter novi-background"
-			style="margin: 30px 0px 30px 500px;">
-              <h4>Find your Tour</h4>
-              <form class="rd-mailform form-fix">
-                <div class="row row-20 row-fix">
-                  <div class="col-sm-12">
-                    <label class="form-label-outside">From</label>
-                    <div class="form-wrap form-wrap-inline">
-                      <select class="form-input" name="city-from">
-                        <option value="New York">TP. Hồ Chí Minh</option>
-                        <option value="Lisbon">Hà Nội</option>
-                        <option value="Stockholm">Đà nẵng</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-sm-12">
-                    <label class="form-label-outside">To</label>
-                    <div class="form-wrap form-wrap-inline">
-                      <select class="form-input" name="city-to">
-                        <option value="Chicago">Niigata</option>
-                        <option value="Madrid">Hiroshima</option>
-                        <option value="Paris">Nagasaki</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-lg-6">
-                    <label class="form-label-outside">Depart Date</label>
-                    <div class="form-wrap form-wrap-validation">
-                      <input class="form-input" id="departDate" type="text" placeholder="Choose the date" readonly>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-lg-6">
-                    <label class="form-label-outside">Duration</label>
-                    <div class="form-wrap form-wrap-validation">
-                      <select class="form-input" name="duration">
-                        <option value="Any length">Any length</option>
-                        <option value="2 days">2 days</option>
-                        <option value="3 days">3 days</option>
-                        <option value="4 days">4 days</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <label class="form-label-outside">Adults</label>
-                    <div class="form-wrap form-wrap-modern">
-                      <div class="stepper">
-                        <input class="form-input input-append stepper-input" id="adults" type="number" min="1" value="2">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <label class="form-label-outside">Children</label>
-                    <div class="form-wrap form-wrap-modern">
-                      <div class="stepper">
-                        <input class="form-input input-append stepper-input" id="children" type="number" min="0" value="0">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-wrap form-button">
-                  <button class="button button-block button-secondary" type="submit">Search Flight</button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-          <script src="custom.js"></script> 
-          <!-- Link to your custom JavaScript file -->
 
 
-		      		<!-- Start Column 1 -->
+
+		      		<!-- Start Column -->
 					  <div class="container container-wide">
 						<div class="row row-fix justify-content-xl-end row-30 text-center text-xl-left">
 						  <div class="col-xl-8">
@@ -240,80 +156,144 @@
 						  <div class="col-xl-3 text-xl-right"><a class="button button-secondary button-nina" href="#">view all tours</a></div>
 						</div>
 						<div class="row row-50">
+							<!-- Start Column 1 -->
+							<div class="col-md-6 col-xl-4">
+								<article class="event-default-wrap">
+									<div class="event-default">
+										<figure class="event-default-image">
+											<img src="images/T01.jpeg" alt="" width="570" height="370">
+										</figure>
+										<div class="event-default-caption">
+											<a class="button button-xs button-secondary button-nina" href="#">learn more</a>
+										</div>
+									</div>
+									<div class="event-default-inner">
+										<h5><a class="event-default-title" href="farm.html">Kabe</a></h5>
+										<p>12/11/2024 - 15/11/2024</p>
+										<span class="heading-5">from 12.000.000 vnd</span>
+									</div>
+									<a class="farm-item" href="#">
+									<span class="icon-cross-farm">
+										<img src="/images/cross.svg" class="img-fluid" alt="Add Icon">
+									</span>  
+								</a>
+								</article>
+							</div>
+							
+						  <!-- Start Column 2 -->
 						  <div class="col-md-6 col-xl-4">
 							<article class="event-default-wrap">
-							  <div class="event-default">
-								<figure class="event-default-image"><img src="images/T01.jpeg" alt="" width="570" height="370">
-								</figure>
-								<div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
-							  </div>
-							  <div class="event-default-inner">
-								<h5><a class="event-default-title" href="#">Kabe, Hiroshima</a></h5><span class="heading-5">from 12.000.000 vnd</span>
-							  </div>
+								<div class="event-default">
+									<figure class="event-default-image">
+										<img src="images/T01.jpeg" alt="" width="570" height="370">
+									</figure>
+									<div class="event-default-caption">
+										<a class="button button-xs button-secondary button-nina" href="#">learn more</a>
+									</div>
+								</div>
+								<div class="event-default-inner">
+									<h5><a class="event-default-title" href="farm.html">Kabe</a></h5>
+									<p>12/11/2024 - 15/11/2024</p>
+									<span class="heading-5">from 12.000.000 vnd</span>
+								</div>
+								<a class="farm-item" href="#">
+								<span class="icon-cross-farm">
+									<img src="/images/cross.svg" class="img-fluid" alt="Add Icon">
+								</span>  </a>
 							</article>
-						  </div>
-						  <div class="col-md-6 col-xl-4">
-							<article class="event-default-wrap">
-							  <div class="event-default">
-								<figure class="event-default-image"><img src="images/T02.jpeg" alt="" width="570" height="370">
-								</figure>
-								<div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
-							  </div>
-							  <div class="event-default-inner">
-								<h5><a class="event-default-title" href="#">2712 Takeshima, Yasutake-machi</a></h5><span class="heading-5">from 10.000.000 vnd</span>
-							  </div>
-							</article>
-						  </div>
-						  <div class="col-md-6 col-xl-4">
-							<article class="event-default-wrap">
-							  <div class="event-default">
-								<figure class="event-default-image"><img src="images/T03.jpeg" alt="" width="570" height="370">
-								</figure>
-								<div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
-							  </div>
-							  <div class="event-default-inner">
-								<h5><a class="event-default-title" href="#">Fukayasu-gun, Hiroshima</a></h5><span class="heading-5">from 13.000.000 vnd</span>
-							  </div>
-							</article>
-						  </div>
-						  <div class="col-md-6 col-xl-4">
-							<article class="event-default-wrap">
-							  <div class="event-default">
-								<figure class="event-default-image"><img src="images/T04.jpeg" alt="" width="570" height="370">
-								</figure>
-								<div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
-							  </div>
-							  <div class="event-default-inner">
-								<h5><a class="event-default-title" href="#">Sera-gun, Hiroshima</a></h5><span class="heading-5">from 35.000.000 vnd</span>
-							  </div>
-							</article>
-						  </div>
-						  <div class="col-md-6 col-xl-4">
-							<article class="event-default-wrap">
-							  <div class="event-default">
-								<figure class="event-default-image"><img src="images/T05.jpeg" alt="" width="570" height="370">
-								</figure>
-								<div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
-							  </div>
-							  <div class="event-default-inner">
-								<h5><a class="event-default-title" href="#">Nagaoka, Niigata</a></h5><span class="heading-5">from 20.000.000 vnd</span>
-							  </div>
-							</article>
-						  </div>
-						  <div class="col-md-6 col-xl-4">
-							<article class="event-default-wrap">
-							  <div class="event-default">
-								<figure class="event-default-image"><img src="images/T06.jpeg" alt="" width="570" height="370">
-								</figure>
-								<div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
-							  </div>
-							  <div class="event-default-inner">
-								<h5><a class="event-default-title" href="#">Ojiya-shi, Niigata</a></h5><span class="heading-5">from 15.000.000 vnd</span>
-							  </div>
-							</article>
-						  </div>
 						</div>
-					  </div>
+						  <!-- Start Column 3 -->
+						  <div class="col-md-6 col-xl-4">
+							<article class="event-default-wrap">
+								<div class="event-default">
+									<figure class="event-default-image">
+										<img src="images/T01.jpeg" alt="" width="570" height="370">
+									</figure>
+									<div class="event-default-caption">
+										<a class="button button-xs button-secondary button-nina" href="#">learn more</a>
+									</div>
+								</div>
+								<div class="event-default-inner">
+									<h5><a class="event-default-title" href="farm.html">Kabe</a></h5>
+									<p>12/11/2024 - 15/11/2024</p>
+									<span class="heading-5">from 12.000.000 vnd</span>
+								</div>
+								<a class="farm-item" href="#">
+								<span class="icon-cross-farm">
+									<img src="/images/cross.svg" class="img-fluid" alt="Add Icon">
+								</span>  </a>
+							</article>
+						</div>
+						  <!-- Start Column 4 -->
+						  <div class="col-md-6 col-xl-4">
+							<article class="event-default-wrap">
+								<div class="event-default">
+									<figure class="event-default-image">
+										<img src="images/T01.jpeg" alt="" width="570" height="370">
+									</figure>
+									<div class="event-default-caption">
+										<a class="button button-xs button-secondary button-nina" href="#">learn more</a>
+									</div>
+								</div>
+								<div class="event-default-inner">
+									<h5><a class="event-default-title" href="farm.html">Kabe</a></h5>
+									<p>12/11/2024 - 15/11/2024</p>
+									<span class="heading-5">from 12.000.000 vnd</span>
+								</div>
+								<a class="farm-item" href="#">
+								<span class="icon-cross-farm">
+									<img src="/images/cross.svg" class="img-fluid" alt="Add Icon">
+								</span>  </a>
+							</article>
+						</div>
+						  <!-- Start Column 5 -->
+						  <div class="col-md-6 col-xl-4">
+							<article class="event-default-wrap">
+								<div class="event-default">
+									<figure class="event-default-image">
+										<img src="images/T01.jpeg" alt="" width="570" height="370">
+									</figure>
+									<div class="event-default-caption">
+										<a class="button button-xs button-secondary button-nina" href="#">learn more</a>
+									</div>
+								</div>
+								<div class="event-default-inner">
+									<h5><a class="event-default-title" href="farm.html">Kabe</a></h5>
+									<p>12/11/2024 - 15/11/2024</p>
+									<span class="heading-5">from 12.000.000 vnd</span>
+								</div>
+								<a class="farm-item" href="#">
+								<span class="icon-cross-farm">
+									<img src="/images/cross.svg" class="img-fluid" alt="Add Icon">
+								</span>  </a>
+							</article>
+						</div>
+						  <!-- Start Column 6 -->
+						  <div class="col-md-6 col-xl-4">
+							<article class="event-default-wrap">
+								<div class="event-default">
+									<figure class="event-default-image">
+										<img src="images/T01.jpeg" alt="" width="570" height="370">
+									</figure>
+									<div class="event-default-caption">
+										<a class="button button-xs button-secondary button-nina" href="#">learn more</a>
+									</div>
+								</div>
+								<div class="event-default-inner">
+									<h5><a class="event-default-title" href="farm.html">Kabe</a></h5>
+									<p>12/11/2024 - 15/11/2024</p>
+									<span class="heading-5">from 12.000.000 vnd</span>
+								</div>
+								<a class="farm-item" href="#">
+								<span class="icon-cross-farm">
+									<img src="/images/cross.svg" class="img-fluid" alt="Add Icon">
+								</span>  </a>
+							</article>
+						</div>
+						
+					</div>
+				</div>
+					  
    <!-- Start Footer Section -->
 		<footer class="footer-section">
 			<div class="container relative">
