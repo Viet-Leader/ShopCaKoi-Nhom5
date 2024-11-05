@@ -11,7 +11,7 @@ namespace ShopCaKoi.Sevices.Interfaces
     {
         Task<List<Customer>> GetCustomerWithDetailAsync();
         Boolean AddCustomer(Customer infor);
-        Boolean CustomerExists(string id);
+        Task<bool> CustomerExists(string id, string email);
 
         // Lấy thông tin khách hàng theo ID
         Task<Customer?> GetCustomerByIdAsync(string customerId);
@@ -30,5 +30,8 @@ namespace ShopCaKoi.Sevices.Interfaces
 
         // Lấy danh sách phản hồi của khách hàng
         Task<List<Feedback>> GetCustomerFeedbacksAsync(string customerId);
-    }
+
+        Task<Customer?>GetCustomerByEmail(string email);
+        Task<bool> ValidateCustomerLogin(string email, string password);
+	}
 }

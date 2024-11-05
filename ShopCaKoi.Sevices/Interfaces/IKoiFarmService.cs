@@ -9,6 +9,12 @@ namespace ShopCaKoi.Sevices.Interfaces
 {
     public interface IKoiFarmService
     {
-        Task<IEnumerable<KoiFarm>> GetKoiFarmsAsync();
-    }
+		Task<List<KoiFarm>> GetKoiFarmsAsync();
+		Boolean DelKoiFarm(KoiFarm infor);
+		Boolean DelKoiFarm(string id);
+		Boolean AddKoiFarm(KoiFarm infor);
+		Boolean UpdKoiFarm(KoiFarm infor);
+		Boolean KoiFarmExists(string id);
+		Task<KoiFarm> GetKoiFarmById(string id);
+	}
 }

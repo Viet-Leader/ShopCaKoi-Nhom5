@@ -7,8 +7,14 @@ using ShopCaKoi.Repositores.Entities;
 
 namespace ShopCaKoi.Repositores.Interfaces
 {
-    public interface IKoiFarmRepository
-    {
-        Task<IEnumerable<KoiFarm>> GetKoiFarmsAsync();
-    }
+	public interface IKoiFarmRepository
+	{
+		Task<List<KoiFarm>> GetKoiFarmsAsync();
+		Boolean DelKoiFarm(KoiFarm infor);
+		Boolean DelKoiFarm(string id);
+		Boolean AddKoiFarm(KoiFarm infor);
+		Boolean UpdKoiFarm(KoiFarm infor);
+		Boolean KoiFarmExists(string id);
+		Task<KoiFarm> GetKoiFarmById(string id);
+	}
 }

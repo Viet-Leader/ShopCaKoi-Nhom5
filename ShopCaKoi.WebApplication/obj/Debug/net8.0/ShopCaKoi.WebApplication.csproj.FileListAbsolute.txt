@@ -882,3 +882,4 @@ D:\Project-ShopCaKoi\fixx\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\obj\Debug\net
 D:\Project-ShopCaKoi\fixx\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\obj\Debug\net8.0\ShopCaKoi.WebApplication.pdb
 D:\Project-ShopCaKoi\fixx\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\obj\Debug\net8.0\ShopCaKoi.WebApplication.genruntimeconfig.cache
 D:\Project-ShopCaKoi\fixx\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\obj\Debug\net8.0\ref\ShopCaKoi.WebApplication.dll
+D:\Github\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\bin\Debug\net8.0\BCrypt.Net-Next.dll

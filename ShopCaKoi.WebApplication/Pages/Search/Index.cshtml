@@ -1,0 +1,38 @@
+﻿@page
+@model ShopCaKoi.WebApplication.Pages.Search.IndexModel
+
+@{
+    ViewData["Title"] = "Kết quả tìm kiếm";
+    Layout = "_Layout";
+}
+
+<h2>Kết quả Tìm kiếm</h2>
+
+@if (Model.Trip != null && Model.Trip.Any())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Trip ID</th>
+                <th>Tên Trang Trại</th>
+                <th>Loài Koi</th>
+                <th>Ngày Khởi Hành</th>
+                <th>Ngày Đến</th>
+                <th>Giá</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var trip in Model.Trip)
+            {
+                <tr>
+                    <td>@trip.TripId</td>
+                    <td>@trip.Farm.Name</td>
+                    <td>@trip.Farm.Koi.Species</td>
+                    <td>@trip.DepartureDate?.ToString("dd/MM/yyyy")</td>
+                    <td>@trip.ArrivalDate?.ToString("dd/MM/yyyy")</td>
+                    <td>@trip.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -20,20 +20,22 @@ namespace ShopCaKoi.Repositores
         public bool AddCustomer(Customer infor)
         {
             try
-            {
+            {             
                 _dbContext.Customers.Add(infor);
                 _dbContext.SaveChanges();
                 return true;
             }
             catch (Exception ex)
             {
-                throw new NotImplementedException();
+                Console.WriteLine($"Đã xảy ra lỗi: {ex.Message}");
+
+                return false;
             }
         }
 
-        public bool CustomerExists(string id)
+        public async Task<bool> CustomerExists(string id,string email)
         {
-            return _dbContext.Customers.Any(e => e.CustomerId == id);
+            return await _dbContext.Customers.AnyAsync(e => e.CustomerId == id|| e.Email == email);
         }
 
         public async Task<List<Customer>> GetCustomerWithDetailAsync()
@@ -91,6 +93,20 @@ namespace ShopCaKoi.Repositores
             return await _dbContext.Feedbacks
                 .Where(feedback => feedback.CustomerId == customerId)
                 .ToListAsync();
+        }
+
+        public async Task<Customer?> GetCustomerByEmail(string email)
+        {
+              return await _dbContext.Customers.Where(c => c.Email.Equals(email)).FirstOrDefaultAsync();
+        }
+
+        public async Task<bool> ValidateCustomerLogin(string email, string password)
+        {
+            var customer = await GetCustomerByEmail(email);
+            if (customer == null) return false;
+
+            // Xác thực mật khẩu
+            return BCrypt.Net.BCrypt.Verify(password, customer.CustomerPassword);
         }
     }
 }

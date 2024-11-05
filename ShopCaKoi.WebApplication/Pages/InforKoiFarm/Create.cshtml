@@ -1,0 +1,52 @@
+﻿@page
+@model ShopCaKoi.WebApplication.Pages.InforKoiFarm.CreateModel
+
+<h4>KoiFarm</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="KoiFarm.FarmId" class="control-label"></label>
+                <input asp-for="KoiFarm.FarmId" class="form-control" />
+                <span asp-validation-for="KoiFarm.FarmId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KoiFarm.Name" class="control-label"></label>
+                <input asp-for="KoiFarm.Name" class="form-control" />
+                <span asp-validation-for="KoiFarm.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KoiFarm.Location" class="control-label"></label>
+                <input asp-for="KoiFarm.Location" class="form-control" />
+                <span asp-validation-for="KoiFarm.Location" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KoiFarm.Description" class="control-label"></label>
+                <input asp-for="KoiFarm.Description" class="form-control" />
+                <span asp-validation-for="KoiFarm.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KoiFarm.ContactInfo" class="control-label"></label>
+                <input asp-for="KoiFarm.ContactInfo" class="form-control" />
+                <span asp-validation-for="KoiFarm.ContactInfo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KoiFarm.KoiId" class="control-label"></label>
+                <select asp-for="KoiFarm.KoiId" class ="form-control" asp-items="ViewBag.KoiId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

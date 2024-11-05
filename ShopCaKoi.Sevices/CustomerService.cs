@@ -21,9 +21,9 @@ namespace ShopCaKoi.Sevices
             return _repository.AddCustomer(infor);
         }
 
-        public bool CustomerExists(string id)
+        public Task<bool> CustomerExists(string id, string email)
         {
-            return _repository.CustomerExists(id);
+            return _repository.CustomerExists(id,email);
         }
 
         public Task<List<Customer>> GetCustomerWithDetailAsync()
@@ -60,5 +60,15 @@ namespace ShopCaKoi.Sevices
         {
             return await _repository.GetCustomerFeedbacksAsync(customerId);
         }
-    }
+
+		public Task<Customer?> GetCustomerByEmail(string email)
+		{
+			return _repository.GetCustomerByEmail(email);
+		}
+
+		public Task<bool> ValidateCustomerLogin(string email, string password)
+		{
+			return _repository.ValidateCustomerLogin(email, password);
+		}
+	}
 }

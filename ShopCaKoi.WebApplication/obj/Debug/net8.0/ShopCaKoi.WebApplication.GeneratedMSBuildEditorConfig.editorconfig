@@ -17,83 +17,151 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShopCaKoi.WebApplication
 build_property.RootNamespace = ShopCaKoi.WebApplication
-build_property.ProjectDir = D:\ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\
+build_property.ProjectDir = D:\Github\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication
+build_property.MSBuildProjectDirectory = D:\Github\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Account/Create.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Account/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Account/Delete.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Account/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Account/Details.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Account/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Account/Edit.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Account/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Account/Index.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Error.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Index.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforTrip/Create.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforCus/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JDdXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforCus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JDdXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforKoiFarm/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JLb2lGYXJtXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforKoiFarm/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JLb2lGYXJtXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforKoiFarm/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JLb2lGYXJtXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforKoiFarm/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JLb2lGYXJtXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforKoiFarm/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JLb2lGYXJtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforKoi/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JLb2lcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforKoi/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JLb2lcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforKoi/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JLb2lcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforKoi/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JLb2lcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforKoi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JLb2lcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforTrip/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JUcmlwXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforTrip/Delete.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforTrip/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JUcmlwXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforTrip/Details.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforTrip/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JUcmlwXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforTrip/Edit.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforTrip/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JUcmlwXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforTrip/Index.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InforTrip/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JUcmlwXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Privacy.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Log/DetailsPro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nXERldGFpbHNQcm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Log/EditPro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nXEVkaXRQcm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Log/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Log/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nXExvZ291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Search/Search.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Search/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Search/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoXFNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/_ViewImports.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/_ViewStart.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ShopCaKoi/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Shared/_Layout.cshtml]
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hckrysma2m
