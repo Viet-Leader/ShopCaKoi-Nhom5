@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uDY5otLYlIk2PB2DkhNqsLyncz0gqodEqnyQx1j00cI=",
+  "Hash": "dfRcb+oEUVwBuNLaZMqV0IrQkNHq1NVk0HiQpg1d7vQ=",
   "Source": "ShopCaKoi.WebApplication",
   "BasePath": "_content/ShopCaKoi.WebApplication",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ShopCaKoi.WebApplication\\wwwroot",
       "Source": "ShopCaKoi.WebApplication",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopCaKoi.WebApplication.styles.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopCaKoi.WebApplication.styles.css",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "ShopCaKoi.WebApplication.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopCaKoi.WebApplication.styles.css"
+      "OriginalItemSpec": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopCaKoi.WebApplication.styles.css"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopCaKoi.WebApplication.bundle.scp.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopCaKoi.WebApplication.bundle.scp.css",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "ShopCaKoi.WebApplication.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopCaKoi.WebApplication.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopCaKoi.WebApplication.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\buyTrip.html",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\buyTrip.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "buyTrip.html",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\buyTrip.html"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\cart.html",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\cart.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "cart.html",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\cart.html"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\contact.html",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\contact.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "contact.html",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\contact.html"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\css\\style.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\css\\style.css",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\css\\tiny-slider.css",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\css\\tiny-slider.css",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "css/tiny-slider.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\tiny-slider.css"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\checkout.html",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\checkout.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "checkout.html",
       "AssetKind": "All",
@@ -188,10 +188,29 @@
       "OriginalItemSpec": "wwwroot\\checkout.html"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\favicon.png",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\farm.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "BasePath": "_content/ShopCaKoi.WebApplication",
+      "RelativePath": "farm.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\farm.html"
+    },
+    {
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\favicon.png",
+      "SourceId": "ShopCaKoi.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -207,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\bag.svg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\bag.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/bag.svg",
       "AssetKind": "All",
@@ -226,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bag.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\bowl-2.png",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\bowl-2.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/bowl-2.png",
       "AssetKind": "All",
@@ -245,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bowl-2.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\bowl-3.png",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\bowl-3.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/bowl-3.png",
       "AssetKind": "All",
@@ -264,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bowl-3.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\cart.svg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\cart.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/cart.svg",
       "AssetKind": "All",
@@ -283,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cart.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\couch.png",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\couch.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/couch.png",
       "AssetKind": "All",
@@ -302,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\couch.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\cross.svg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\cross.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/cross.svg",
       "AssetKind": "All",
@@ -321,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cross.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\dots-green.svg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\dots-green.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/dots-green.svg",
       "AssetKind": "All",
@@ -340,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dots-green.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\dots-light.svg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\dots-light.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/dots-light.svg",
       "AssetKind": "All",
@@ -359,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dots-light.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\dots-yellow.svg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\dots-yellow.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/dots-yellow.svg",
       "AssetKind": "All",
@@ -378,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dots-yellow.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\envelope-outline.svg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\envelope-outline.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/envelope-outline.svg",
       "AssetKind": "All",
@@ -397,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\envelope-outline.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\img-grid-1.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\img-grid-1.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/img-grid-1.jpg",
       "AssetKind": "All",
@@ -416,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\img-grid-1.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\img-grid-2.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\img-grid-2.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/img-grid-2.jpg",
       "AssetKind": "All",
@@ -435,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\img-grid-2.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\img-grid-3.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\img-grid-3.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/img-grid-3.jpg",
       "AssetKind": "All",
@@ -454,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\img-grid-3.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K01.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K01.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/K01.jpg",
       "AssetKind": "All",
@@ -473,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\K01.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K02.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K02.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/K02.jpg",
       "AssetKind": "All",
@@ -492,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\K02.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K03.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K03.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/K03.jpg",
       "AssetKind": "All",
@@ -511,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\K03.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K04.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K04.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/K04.jpg",
       "AssetKind": "All",
@@ -530,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\K04.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K05.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K05.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/K05.jpg",
       "AssetKind": "All",
@@ -549,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\K05.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K06.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K06.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/K06.jpg",
       "AssetKind": "All",
@@ -568,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\K06.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K07.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K07.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/K07.jpg",
       "AssetKind": "All",
@@ -587,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\images\\K07.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K08.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\K08.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/K08.jpg",
       "AssetKind": "All",
@@ -606,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\images\\K08.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\KoiIndex.png",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\KoiIndex.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/KoiIndex.png",
       "AssetKind": "All",
@@ -625,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\images\\KoiIndex.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\person_1.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\person_1.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/person_1.jpg",
       "AssetKind": "All",
@@ -644,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\person_1.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\person_2.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\person_2.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/person_2.jpg",
       "AssetKind": "All",
@@ -663,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\images\\person_2.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\person_3.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\person_3.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/person_3.jpg",
       "AssetKind": "All",
@@ -682,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\images\\person_3.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\person_4.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\person_4.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/person_4.jpg",
       "AssetKind": "All",
@@ -701,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\person_4.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\person-1.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\person-1.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/person-1.jpg",
       "AssetKind": "All",
@@ -720,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\person-1.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\person-1.png",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\person-1.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/person-1.png",
       "AssetKind": "All",
@@ -739,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\person-1.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\post-1.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\post-1.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/post-1.jpg",
       "AssetKind": "All",
@@ -758,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post-1.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\post-2.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\post-2.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/post-2.jpg",
       "AssetKind": "All",
@@ -777,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post-2.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\post-3.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\post-3.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/post-3.jpg",
       "AssetKind": "All",
@@ -796,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post-3.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\product-1.png",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\product-1.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/product-1.png",
       "AssetKind": "All",
@@ -815,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-1.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\product-2.png",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\product-2.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/product-2.png",
       "AssetKind": "All",
@@ -834,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-2.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\product-3.png",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\product-3.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/product-3.png",
       "AssetKind": "All",
@@ -853,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-3.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\return.svg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\return.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/return.svg",
       "AssetKind": "All",
@@ -872,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\images\\return.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\search.svg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\search.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/search.svg",
       "AssetKind": "All",
@@ -891,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\images\\search.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\sofa.png",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\sofa.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/sofa.png",
       "AssetKind": "All",
@@ -910,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sofa.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\songngu.png",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\songngu.png",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/songngu.png",
       "AssetKind": "All",
@@ -929,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\images\\songngu.png"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\support.svg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\support.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/support.svg",
       "AssetKind": "All",
@@ -948,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\images\\support.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\T01.jpeg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\T01.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/T01.jpeg",
       "AssetKind": "All",
@@ -967,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\T01.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\T02.jpeg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\T02.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/T02.jpeg",
       "AssetKind": "All",
@@ -986,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\images\\T02.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\T03.jpeg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\T03.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/T03.jpeg",
       "AssetKind": "All",
@@ -1005,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\images\\T03.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\T04.jpeg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\T04.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/T04.jpeg",
       "AssetKind": "All",
@@ -1024,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\images\\T04.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\T05.jpeg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\T05.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/T05.jpeg",
       "AssetKind": "All",
@@ -1043,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\images\\T05.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\T06.jpeg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\T06.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/T06.jpeg",
       "AssetKind": "All",
@@ -1062,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\images\\T06.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\TraiCaKoi.jpeg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\TraiCaKoi.jpeg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/TraiCaKoi.jpeg",
       "AssetKind": "All",
@@ -1081,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\images\\TraiCaKoi.jpeg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\truck.svg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\truck.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/truck.svg",
       "AssetKind": "All",
@@ -1100,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\truck.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\user.svg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\user.svg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/user.svg",
       "AssetKind": "All",
@@ -1119,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\images\\user.svg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\why-choose-us-img.jpg",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\images\\why-choose-us-img.jpg",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "images/why-choose-us-img.jpg",
       "AssetKind": "All",
@@ -1138,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\images\\why-choose-us-img.jpg"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\index.html",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\index.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -1157,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\js\\bootstrap.bundle.min.js",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1176,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\js\\custom.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\js\\custom.js",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "js/custom.js",
       "AssetKind": "All",
@@ -1195,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\js\\tiny-slider.js",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\js\\tiny-slider.js",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "js/tiny-slider.js",
       "AssetKind": "All",
@@ -1214,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\js\\tiny-slider.js"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\prepros-6.config",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\prepros-6.config",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "prepros-6.config",
       "AssetKind": "All",
@@ -1233,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\prepros-6.config"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\scss\\style.scss",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\scss\\style.scss",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "scss/style.scss",
       "AssetKind": "All",
@@ -1252,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\style.scss"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\services.html",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\services.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "services.html",
       "AssetKind": "All",
@@ -1271,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\services.html"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\shop.html",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\shop.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "shop.html",
       "AssetKind": "All",
@@ -1290,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\shop.html"
     },
     {
-      "Identity": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\thankyou.html",
+      "Identity": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\thankyou.html",
       "SourceId": "ShopCaKoi.WebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project-ShopCaKoi\\fixx\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\",
       "BasePath": "_content/ShopCaKoi.WebApplication",
       "RelativePath": "thankyou.html",
       "AssetKind": "All",

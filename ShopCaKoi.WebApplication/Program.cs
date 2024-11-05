@@ -17,7 +17,7 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IKoiRepository, KoiRepository>();
 builder.Services.AddScoped<IKoiFarmRepository, KoiFarmRepository>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
-builder.Services.AddScoped<IGuestRepository, GuestRepository>();
+
 //DI Service
 builder.Services.AddScoped<IShopCaKoiAccountService, ShopCaKoiAccountService>();
 builder.Services.AddScoped<ITripService, TripService>();
@@ -25,7 +25,7 @@ builder.Services.AddScoped <IOrderService,OrderService>();
 builder.Services.AddScoped<IKoiService, KoiService>();
 builder.Services.AddScoped<IKoiFarmService, KoiFarmService>();
 builder.Services.AddScoped<ICustomerService,CustomerService>();
-builder.Services.AddScoped<IGuestService, GuestService>();
+
 
 var app = builder.Build();
 
