@@ -21,10 +21,17 @@ builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 //DI Service
 builder.Services.AddScoped<IShopCaKoiAccountService, ShopCaKoiAccountService>();
 builder.Services.AddScoped<ITripService, TripService>();
-builder.Services.AddScoped <IOrderService,OrderService>();
+builder.Services.AddScoped<IOrderService,OrderService>();
 builder.Services.AddScoped<IKoiService, KoiService>();
 builder.Services.AddScoped<IKoiFarmService, KoiFarmService>();
 builder.Services.AddScoped<ICustomerService,CustomerService>();
+
+builder.Services.AddSession(options =>
+{
+	options.IdleTimeout = TimeSpan.FromMinutes(30);
+	options.Cookie.HttpOnly = true;
+	options.Cookie.IsEssential = true;
+});
 
 
 var app = builder.Build();
@@ -46,6 +53,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapRazorPages();
 

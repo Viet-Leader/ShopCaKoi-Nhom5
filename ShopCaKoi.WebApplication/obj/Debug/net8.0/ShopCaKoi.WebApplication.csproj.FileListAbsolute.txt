@@ -1146,3 +1146,4 @@ D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\obj\Debug\net8.0\s
 D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\obj\Debug\net8.0\ShopCaKo.C61C925E.Up2Date
 D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\obj\Debug\net8.0\ShopCaKoi.WebApplication.genruntimeconfig.cache
 D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\obj\Debug\net8.0\ref\ShopCaKoi.WebApplication.dll
+D:\Github\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\bin\Debug\net8.0\BCrypt.Net-Next.dll
