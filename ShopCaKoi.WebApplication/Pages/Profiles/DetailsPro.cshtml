@@ -1,0 +1,26 @@
+﻿@page
+@model ShopCaKoi.WebApplication.Pages.Profiles.DetailsProModel
+@{
+    ViewData["Title"] = "Thông Tin Khách Hàng";
+}
+
+<h2>Thông Tin Khách Hàng</h2>
+
+<div class="customer-info">
+    <p><strong>Tên:</strong> @Model.Customer.Name</p>
+    <p><strong>Email:</strong> @Model.Customer.Email</p>
+    <p><strong>Số điện thoại:</strong> @Model.Customer.Phone</p>
+    <p><strong>Địa chỉ:</strong> @Model.Customer.Address</p>
+</div>
+<div>
+    <a href="/Log/Editpro">
+        <button type="submit" class="btn btn-primary mt-3">Chỉnh Sửa</button>
+    </a>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -9,17 +9,47 @@ using ShopCaKoi.Sevices.Interfaces;
 
 namespace ShopCaKoi.Sevices
 {
-    public class KoiFarmService : IKoiFarmService
-    {
-        private readonly IKoiFarmRepository _repository;
-        public KoiFarmService(IKoiFarmRepository repository)
-        {
-            _repository = repository;
-        }
+	public class KoiFarmService : IKoiFarmService
+	{
+		private readonly IKoiFarmRepository _repository;
+		public KoiFarmService(IKoiFarmRepository repository)
+		{
+			_repository = repository;
+		}
 
-        public Task<IEnumerable<KoiFarm>> GetKoiFarmsAsync()
-        {
-            return _repository.GetKoiFarmsAsync();
-        }
-    }
+		public bool AddKoiFarm(KoiFarm infor)
+		{
+			return _repository.AddKoiFarm(infor);
+		}
+
+		public bool DelKoiFarm(KoiFarm infor)
+		{
+			return _repository.DelKoiFarm(infor);
+		}
+
+		public bool DelKoiFarm(string id)
+		{
+			return _repository.DelKoiFarm(id);
+		}
+
+		public Task<KoiFarm> GetKoiFarmById(string id)
+		{
+			return _repository.GetKoiFarmById(id);
+		}
+
+		public Task<List<KoiFarm>> GetKoiFarmsAsync()
+		{
+			return _repository.GetKoiFarmsAsync();
+		}
+
+		public bool KoiFarmExists(string id)
+		{
+			return _repository.KoiFarmExists(id);
+		}
+
+		public bool UpdKoiFarm(KoiFarm infor)
+		{
+			return _repository.UpdKoiFarm(infor);
+		}
+	}
 }
