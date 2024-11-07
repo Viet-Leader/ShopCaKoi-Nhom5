@@ -2,7 +2,6 @@ using ShopCaKoi.Repositores;
 using ShopCaKoi.Repositores.Entities;
 using ShopCaKoi.Repositores.Interfaces;
 using ShopCaKoi.Services;
-using ShopCaKoi.Sevices;
 using ShopCaKoi.Sevices.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +12,6 @@ builder.Services.AddDbContext<DataShopCaKoiContext>();
 //DI Repository
 builder.Services.AddScoped<IShopCaKoiAccountRepository, ShopCaKoiAccountRepository>();
 builder.Services.AddScoped<ITripRepository, TripRepository>();
-builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IKoiRepository, KoiRepository>();
 builder.Services.AddScoped<IKoiFarmRepository, KoiFarmRepository>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
@@ -21,7 +19,6 @@ builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 //DI Service
 builder.Services.AddScoped<IShopCaKoiAccountService, ShopCaKoiAccountService>();
 builder.Services.AddScoped<ITripService, TripService>();
-builder.Services.AddScoped<IOrderService,OrderService>();
 builder.Services.AddScoped<IKoiService, KoiService>();
 builder.Services.AddScoped<IKoiFarmService, KoiFarmService>();
 builder.Services.AddScoped<ICustomerService,CustomerService>();
