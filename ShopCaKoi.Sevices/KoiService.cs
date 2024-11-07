@@ -7,7 +7,7 @@ using ShopCaKoi.Repositores.Entities;
 using ShopCaKoi.Repositores.Interfaces;
 using ShopCaKoi.Sevices.Interfaces;
 
-namespace ShopCaKoi.Sevices
+namespace ShopCaKoi.Services
 {
 	public class KoiService : IKoiService
 	{
