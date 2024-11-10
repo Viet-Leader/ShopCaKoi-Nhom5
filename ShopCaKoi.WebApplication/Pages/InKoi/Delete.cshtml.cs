@@ -8,19 +8,19 @@ using Microsoft.EntityFrameworkCore;
 using ShopCaKoi.Repositores.Entities;
 using ShopCaKoi.Sevices.Interfaces;
 
-namespace ShopCaKoi.WebApplication.Pages.InforTrip
+namespace ShopCaKoi.WebApplication.Pages.InKoi
 {
     public class DeleteModel : PageModel
     {
-        private readonly ITripService _service;
+        private readonly IKoiService _koiService;
 
-        public DeleteModel(ITripService service)
+        public DeleteModel(IKoiService koiService)
         {
-            _service = service;
+            _koiService = koiService;
         }
 
         [BindProperty]
-        public Trip Trip { get; set; } = default!;
+        public Koi Koi { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(string id)
         {
@@ -29,15 +29,15 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
                 return NotFound();
             }
 
-            var trip = await _service.GetTripById(id);
+            var koi = await _koiService.GetKoiById(id);
 
-            if (trip == null)
+            if (koi == null)
             {
                 return NotFound();
             }
             else
             {
-                Trip = trip;
+                Koi = koi;
             }
             return Page();
         }
@@ -49,7 +49,7 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
                 return NotFound();
             }
 
-            _service.DelTrip(id);
+            _koiService.DelKoi(id);
 
             return RedirectToPage("./Index");
         }

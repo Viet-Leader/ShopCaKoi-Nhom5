@@ -7,15 +7,19 @@ using System.Threading.Tasks;
 
 namespace ShopCaKoi.Sevices.Interfaces
 {
-    public interface IOrderService
+    public interface IOrderKoiService
     {
+
+
         Task<List<OrderKoi>> GetAllOrders();
+
         Task<OrderKoi> GetOrderById(string orderId);
-        Task<bool> AddOrder(OrderKoi order);
-        Task<bool> UpdateOrder(OrderKoi order);
-        Task<bool> DeleteOrder(OrderKoi order);
-        Task<bool> DeleteOrder(string orderId);
-        Task<bool> UpdatePaymentStatus(string orderId, string paymentStatus);
+        Boolean AddOrder(OrderKoi order);
+        Boolean UpdateOrder(OrderKoi order);
+        Boolean DeleteOrder(OrderKoi order);
+        Boolean DeleteOrder(string orderId);
+        Boolean UpdatePaymentStatus(OrderKoi orderId);
+        Task<double> CalculateTotalPrice(OrderKoi order);
         bool OrderExists(string orderId);
     }
 }

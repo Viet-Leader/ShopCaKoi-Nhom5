@@ -8,18 +8,18 @@ using Microsoft.EntityFrameworkCore;
 using ShopCaKoi.Repositores.Entities;
 using ShopCaKoi.Sevices.Interfaces;
 
-namespace ShopCaKoi.WebApplication.Pages.InforTrip
+namespace ShopCaKoi.WebApplication.Pages.InKoi
 {
     public class DetailsModel : PageModel
     {
-        private readonly ITripService _service;
+        private readonly IKoiService _koiService;
 
-        public DetailsModel(ITripService service)
+        public DetailsModel(IKoiService koiService)
         {
-            _service = service;
+            _koiService = koiService;
         }
 
-        public Trip Trip { get; set; } = default!;
+        public Koi Koi { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(string id)
         {
@@ -29,8 +29,8 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
             }
 
             // Sử dụng dịch vụ để lấy tài khoản
-            Trip = await _service.GetTripById(id);
-            if (Trip == null)
+            Koi = await _koiService.GetKoiById(id);
+            if (Koi == null)
             {
                 return NotFound();
             }

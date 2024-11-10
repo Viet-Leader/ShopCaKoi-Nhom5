@@ -13,18 +13,21 @@ builder.Services.AddDbContext<DataShopCaKoiContext>();
 //DI Repository
 builder.Services.AddScoped<IShopCaKoiAccountRepository, ShopCaKoiAccountRepository>();
 builder.Services.AddScoped<ITripRepository, TripRepository>();
-builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IOrderKoiRepository, OrderKoiRepository>();
 builder.Services.AddScoped<IKoiRepository, KoiRepository>();
 builder.Services.AddScoped<IKoiFarmRepository, KoiFarmRepository>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<IQuotationRepository, QuotationRepository>();
+
 
 //DI Service
 builder.Services.AddScoped<IShopCaKoiAccountService, ShopCaKoiAccountService>();
 builder.Services.AddScoped<ITripService, TripService>();
-builder.Services.AddScoped<IOrderService,OrderService>();
+builder.Services.AddScoped<IOrderKoiService,OrderKoiService>();
 builder.Services.AddScoped<IKoiService, KoiService>();
 builder.Services.AddScoped<IKoiFarmService, KoiFarmService>();
 builder.Services.AddScoped<ICustomerService,CustomerService>();
+builder.Services.AddScoped<IQuotationService, QuotationService>();
 
 builder.Services.AddSession(options =>
 {

@@ -8,19 +8,18 @@ using Microsoft.EntityFrameworkCore;
 using ShopCaKoi.Repositores.Entities;
 using ShopCaKoi.Sevices.Interfaces;
 
-namespace ShopCaKoi.WebApplication.Pages.InforTrip
+namespace ShopCaKoi.WebApplication.Pages.InKoi
 {
     public class IndexModel : PageModel
     {
-        private readonly ITripService _service;
+        private readonly IKoiService _koiService;
 
-        public IndexModel(ITripService service)
+        public IndexModel(IKoiService koiService)
         {
-            _service = service;
+            _koiService = koiService;
         }
-
         [BindProperty(SupportsGet = true)]
-        public string? FarmName { get; set; }
+        public string? KoiName { get; set; }
         [BindProperty(SupportsGet = true)]
         public string? KoiSpecies { get; set; }
         [BindProperty(SupportsGet = true)]
@@ -31,12 +30,13 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
         public double? MinPrice { get; set; }
         [BindProperty(SupportsGet = true)]
         public double? MaxPrice { get; set; }
+        public string? ImageUrl { get; set; }
 
-        public IList<Trip> Trip { get; set; } = default!;
+        public IList<Koi> Koi { get;set; } = default!;
 
         public async Task OnGetAsync()
         {
-            Trip = await _service.GetTripsWithDetailsAsync();
+            Koi = await _koiService.GetKoisAsync();
         }
     }
 }

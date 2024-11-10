@@ -7,25 +7,25 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ShopCaKoi.Repositores.Entities;
+using ShopCaKoi.Sevices;
 using ShopCaKoi.Sevices.Interfaces;
 
-namespace ShopCaKoi.WebApplication.Pages.InforTrip
+namespace ShopCaKoi.WebApplication.Pages.InKoi
 {
     public class EditModel : PageModel
     {
-        private readonly ITripService _service;
-        private readonly IKoiFarmService _koiFarmService;
         private readonly IKoiService _koiService;
-
-        public EditModel(ITripService service, IKoiFarmService koiFarmService, IKoiService koiService)
+        private readonly IQuotationService _quotationService;
+        private readonly ICustomerService _customerService;
+        public EditModel(ICustomerService customerService, IQuotationService quotationService, IKoiService koiService)
         {
-            _service = service;
-            _koiFarmService = koiFarmService;
             _koiService = koiService;
+            _customerService = customerService;
+            _quotationService = quotationService;
         }
 
         [BindProperty]
-        public Trip Trip { get; set; } = default!;
+        public Koi Koi { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(string id)
         {
@@ -34,16 +34,16 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
                 return NotFound();
             }
 
-            Trip = await _service.GetTripById(id);
-            if (Trip == null)
+            Koi = await _koiService.GetKoiById(id);
+            if (Koi == null)
             {
                 return NotFound();
             }
-            var koiFarms = await _koiFarmService.GetKoiFarmsAsync();
-            var kois = await _koiService.GetKoisAsync();
+            var customer = await _customerService.GetCustomerWithDetailAsync();
+            var quotation = await _quotationService.GetAllQuotations();
 
-            ViewData["FarmId"] = new SelectList(koiFarms, "FarmId", "FarmId");
-            ViewData["KoiId"] = new SelectList(kois, "KoiId", "KoiId");
+            ViewData["customerId"] = new SelectList(customer, "customerId", "customerId");
+            ViewData["quotations"] = new SelectList(quotation, "quotations", "quotations");
             return Page();
         }
 
@@ -59,13 +59,13 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
             try
             {
                 // Kiểm tra xem tài khoản có tồn tại thông qua service
-                if (!_service.TripExists(Trip.TripId))
+                if (!_koiService.KoiExists(Koi.KoiId))
                 {
                     ModelState.AddModelError(string.Empty, "Tài khoản không tồn tại. Không thể cập nhật.");
                     return Page(); // Trả về trang hiện tại với thông báo lỗi
                 }
 
-                bool isUpdated = _service.UpdTrip(Trip);
+                bool isUpdated = _koiService.UpdKoi(Koi);
                 if (!isUpdated)
                 {
                     ModelState.AddModelError(string.Empty, "Cập nhật không thành công. Vui lòng thử lại.");
@@ -81,6 +81,5 @@ namespace ShopCaKoi.WebApplication.Pages.InforTrip
 
             return RedirectToPage("./Index");
         }
-
     }
 }

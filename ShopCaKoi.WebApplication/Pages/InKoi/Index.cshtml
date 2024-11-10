@@ -1,0 +1,44 @@
+﻿
+@page
+@model ShopCaKoi.WebApplication.Pages.InKoi.IndexModel
+@{
+    ViewData["Title"] = "Koi Fish Shop";
+}
+<!-- Start Hero Section -->
+            <div class="hero">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-5">
+                            <div class="intro-excerpt">
+                                <h1>Shop</h1>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- End Hero Section -->
+
+<div class="untree_co-section product-section before-footer-section">
+    <div class="container">
+        <div class="row">
+            @foreach (var koi in Model.Koi)
+            {
+                <div class="col-12 col-md-4 col-lg-3 mb-5">
+                    <a class="product-item" href="#">
+                        <img src="@koi.ImageUrl" class="img-fluid product-thumbnail" alt="@koi.Species">
+                        <h3 class="product-title">@koi.Species @koi.Size cm</h3>
+                        <strong class="product-price">@String.Format("{0:0,0} vnd", koi.Price)</strong>
+                        <span class="icon-cross">
+                            <img src="/images/cross.svg" class="img-fluid">
+                        </span>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+ 

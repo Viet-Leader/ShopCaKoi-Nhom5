@@ -94,3 +94,19 @@ D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKo
 D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\refint\ShopCaKoi.Sevices.dll
 D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.pdb
 D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ref\ShopCaKoi.Sevices.dll
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\bin\Debug\net8.0\ShopCaKoi.Sevices.deps.json
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\bin\Debug\net8.0\ShopCaKoi.Sevices.dll
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\bin\Debug\net8.0\ShopCaKoi.Sevices.pdb
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\bin\Debug\net8.0\ShopCaKoi.Repositores.dll
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\bin\Debug\net8.0\ShopCaKoi.Repositores.pdb
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.csproj.AssemblyReference.cache
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.GeneratedMSBuildEditorConfig.editorconfig
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.AssemblyInfoInputs.cache
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.AssemblyInfo.cs
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.csproj.CoreCompileInputs.cache
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.sourcelink.json
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKo.7B725ED4.Up2Date
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.dll
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\refint\ShopCaKoi.Sevices.dll
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.pdb
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ref\ShopCaKoi.Sevices.dll

@@ -103,3 +103,18 @@ D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\refi
 D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.pdb
 D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.genruntimeconfig.cache
 D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ref\ShopCaKoi.Repositores.dll
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\bin\Debug\net8.0\ShopCaKoi.Repositores.deps.json
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\bin\Debug\net8.0\ShopCaKoi.Repositores.runtimeconfig.json
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\bin\Debug\net8.0\ShopCaKoi.Repositores.dll
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\bin\Debug\net8.0\ShopCaKoi.Repositores.pdb
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.csproj.AssemblyReference.cache
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.GeneratedMSBuildEditorConfig.editorconfig
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.AssemblyInfoInputs.cache
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.AssemblyInfo.cs
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.csproj.CoreCompileInputs.cache
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.sourcelink.json
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.dll
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\refint\ShopCaKoi.Repositores.dll
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.pdb
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.genruntimeconfig.cache
+C:\NEW CLONE KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ref\ShopCaKoi.Repositores.dll
