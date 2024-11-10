@@ -21,5 +21,7 @@ public partial class OrderKoi
 
     public virtual Customer? Customer { get; set; }
 
+    public virtual Koi? Koi { get; set; }
+
     public virtual Quotation? Quotation { get; set; }
 }

@@ -19,9 +19,13 @@ public partial class Trip
 
     public string? Description { get; set; }
 
+    public string? ImageUrl { get; set; }
+
     public virtual ICollection<Booking> Bookings { get; set; } = new List<Booking>();
 
+    public virtual ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
+
     public virtual KoiFarm? Farm { get; set; }
-    public virtual Koi? Koi { get; set; }
+
     public virtual ICollection<OrderTrip> OrderTrips { get; set; } = new List<OrderTrip>();
 }

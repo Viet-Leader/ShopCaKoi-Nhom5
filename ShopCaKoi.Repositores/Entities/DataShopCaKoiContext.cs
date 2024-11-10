@@ -51,13 +51,13 @@ public partial class DataShopCaKoiContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=NGUYENSANG-2002;Database=DataShopCaKoi;Trusted_Connection=True;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=LAPTOP-HSC0TDRA;Database=DataShopCaKoi;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Booking>(entity =>
         {
-            entity.HasKey(e => e.BookingId).HasName("PK__Booking__C6D03BED77393426");
+            entity.HasKey(e => e.BookingId).HasName("PK__Booking__C6D03BEDC7B26A0D");
 
             entity.ToTable("Booking");
 
@@ -87,37 +87,45 @@ public partial class DataShopCaKoiContext : DbContext
 
             entity.HasOne(d => d.Acc).WithMany(p => p.Bookings)
                 .HasForeignKey(d => d.AccId)
-                .HasConstraintName("FK__Booking__AccID__6A30C649");
+                .HasConstraintName("FK__Booking__AccID__68487DD7");
 
             entity.HasOne(d => d.Trip).WithMany(p => p.Bookings)
                 .HasForeignKey(d => d.TripId)
-                .HasConstraintName("FK__Booking__tripID__6B24EA82");
+                .HasConstraintName("FK__Booking__tripID__693CA210");
         });
 
         modelBuilder.Entity<CartItem>(entity =>
         {
-            entity.HasKey(e => e.CartItemId).HasName("PK__CartItem__488B0B0AC7FA3F0D");
+            entity.HasKey(e => e.CartItemId).HasName("PK_CartItemId");
 
             entity.ToTable("CartItem", tb => tb.HasTrigger("trg_UpdateQuantityOnDuplicateKoiId"));
 
-            entity.Property(e => e.CartItemId)
-                .HasMaxLength(50)
-                .IsUnicode(false);
+            entity.Property(e => e.CartItemId).HasMaxLength(50);
             entity.Property(e => e.KoiId)
                 .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("koiId");
+                .HasColumnName("koiID");
             entity.Property(e => e.Price)
                 .HasColumnType("decimal(18, 2)")
                 .HasColumnName("price");
             entity.Property(e => e.Total)
                 .HasComputedColumnSql("([price]*[Quantity])", true)
                 .HasColumnType("decimal(29, 2)");
+            entity.Property(e => e.TripId)
+                .HasMaxLength(50)
+                .HasColumnName("tripID");
+
+            entity.HasOne(d => d.Koi).WithMany(p => p.CartItems)
+                .HasForeignKey(d => d.KoiId)
+                .HasConstraintName("FK_CartItem_Koi");
+
+            entity.HasOne(d => d.Trip).WithMany(p => p.CartItems)
+                .HasForeignKey(d => d.TripId)
+                .HasConstraintName("FK_CartItem_Trip");
         });
 
         modelBuilder.Entity<ConsultingStaff>(entity =>
         {
-            entity.HasKey(e => e.Idnv).HasName("PK__Consulti__B87DC9B2E12780E6");
+            entity.HasKey(e => e.Idnv).HasName("PK__Consulti__B87DC9B2834484C4");
 
             entity.ToTable("ConsultingStaff");
 
@@ -134,7 +142,7 @@ public partial class DataShopCaKoiContext : DbContext
             entity.HasOne(d => d.IdnvNavigation).WithOne(p => p.ConsultingStaff)
                 .HasForeignKey<ConsultingStaff>(d => d.Idnv)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Consulting__IDNV__6C190EBB");
+                .HasConstraintName("FK__Consulting__IDNV__6A30C649");
 
             entity.HasOne(d => d.Quotation).WithMany(p => p.ConsultingStaffs)
                 .HasForeignKey(d => d.QuotationId)
@@ -143,9 +151,9 @@ public partial class DataShopCaKoiContext : DbContext
 
         modelBuilder.Entity<Customer>(entity =>
         {
-            entity.HasKey(e => e.CustomerId).HasName("PK__Customer__B611CB9D896513E7");
+            entity.HasKey(e => e.CustomerId).HasName("PK__Customer__B611CB9D03FC08C2");
 
-            entity.ToTable("Customer");
+            entity.ToTable("Customer", tb => tb.HasTrigger("trg_AutoIncrementCustomerID"));
 
             entity.Property(e => e.CustomerId)
                 .HasMaxLength(50)
@@ -161,7 +169,7 @@ public partial class DataShopCaKoiContext : DbContext
 
         modelBuilder.Entity<DeliveringStaff>(entity =>
         {
-            entity.HasKey(e => e.Idnv).HasName("PK__Deliveri__B87DC9B2E77EFF4B");
+            entity.HasKey(e => e.Idnv).HasName("PK__Deliveri__B87DC9B25F626896");
 
             entity.ToTable("DeliveringStaff");
 
@@ -175,7 +183,7 @@ public partial class DataShopCaKoiContext : DbContext
             entity.HasOne(d => d.IdnvNavigation).WithOne(p => p.DeliveringStaff)
                 .HasForeignKey<DeliveringStaff>(d => d.Idnv)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Delivering__IDNV__6E01572D");
+                .HasConstraintName("FK__Delivering__IDNV__6C190EBB");
         });
 
         modelBuilder.Entity<Employee>(entity =>
@@ -195,7 +203,7 @@ public partial class DataShopCaKoiContext : DbContext
 
         modelBuilder.Entity<Feedback>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Feedback__3213E83FDD799718");
+            entity.HasKey(e => e.Id).HasName("PK__Feedback__3213E83FB8AD15ED");
 
             entity.ToTable("Feedback");
 
@@ -212,18 +220,19 @@ public partial class DataShopCaKoiContext : DbContext
 
             entity.HasOne(d => d.Customer).WithMany(p => p.Feedbacks)
                 .HasForeignKey(d => d.CustomerId)
-                .HasConstraintName("FK__Feedback__custom__6EF57B66");
+                .HasConstraintName("FK__Feedback__custom__6D0D32F4");
         });
 
         modelBuilder.Entity<Koi>(entity =>
         {
-            entity.HasKey(e => e.KoiId).HasName("PK__Koi__915924EF2CD37FAD");
+            entity.HasKey(e => e.KoiId).HasName("PK__Koi__915924EFD1179843");
 
             entity.ToTable("Koi");
 
             entity.Property(e => e.KoiId)
                 .HasMaxLength(50)
                 .HasColumnName("koiID");
+            entity.Property(e => e.ImageUrl).HasMaxLength(200);
             entity.Property(e => e.Price)
                 .HasColumnType("decimal(18, 2)")
                 .HasColumnName("price");
@@ -250,6 +259,7 @@ public partial class DataShopCaKoiContext : DbContext
             entity.Property(e => e.Description)
                 .HasColumnType("text")
                 .HasColumnName("description");
+            entity.Property(e => e.ImageUrl).HasMaxLength(200);
             entity.Property(e => e.KoiId)
                 .HasMaxLength(50)
                 .HasColumnName("koiID");
@@ -267,7 +277,7 @@ public partial class DataShopCaKoiContext : DbContext
 
         modelBuilder.Entity<Manager>(entity =>
         {
-            entity.HasKey(e => e.Idnv).HasName("PK__Manager__B87DC9B2CF0147CB");
+            entity.HasKey(e => e.Idnv).HasName("PK__Manager__B87DC9B24028C6A2");
 
             entity.ToTable("Manager");
 
@@ -282,7 +292,7 @@ public partial class DataShopCaKoiContext : DbContext
             entity.HasOne(d => d.IdnvNavigation).WithOne(p => p.Manager)
                 .HasForeignKey<Manager>(d => d.Idnv)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Manager__IDNV__70DDC3D8");
+                .HasConstraintName("FK__Manager__IDNV__6EF57B66");
 
             entity.HasOne(d => d.Quotation).WithMany(p => p.Managers)
                 .HasForeignKey(d => d.QuotationId)
@@ -291,7 +301,7 @@ public partial class DataShopCaKoiContext : DbContext
 
         modelBuilder.Entity<OrderKoi>(entity =>
         {
-            entity.HasKey(e => e.OrderId).HasName("PK__OrderKoi__0809337D2DCC965B");
+            entity.HasKey(e => e.OrderId).HasName("PK__OrderKoi__0809337DECEA6D82");
 
             entity.ToTable("OrderKoi");
 
@@ -316,7 +326,11 @@ public partial class DataShopCaKoiContext : DbContext
 
             entity.HasOne(d => d.Customer).WithMany(p => p.OrderKois)
                 .HasForeignKey(d => d.CustomerId)
-                .HasConstraintName("FK__OrderKoi__custom__72C60C4A");
+                .HasConstraintName("FK__OrderKoi__custom__70DDC3D8");
+
+            entity.HasOne(d => d.Koi).WithMany(p => p.OrderKois)
+                .HasForeignKey(d => d.KoiId)
+                .HasConstraintName("FK_OrderKoi_Koi");
 
             entity.HasOne(d => d.Quotation).WithMany(p => p.OrderKois)
                 .HasForeignKey(d => d.QuotationId)
@@ -325,7 +339,7 @@ public partial class DataShopCaKoiContext : DbContext
 
         modelBuilder.Entity<OrderTrip>(entity =>
         {
-            entity.HasKey(e => e.OrderId).HasName("PK__OrderTri__C3905BAF7BD5C8EB");
+            entity.HasKey(e => e.OrderId).HasName("PK__OrderTri__C3905BAF38C12AD5");
 
             entity.ToTable("OrderTrip");
 
@@ -348,20 +362,20 @@ public partial class DataShopCaKoiContext : DbContext
 
             entity.HasOne(d => d.Customer).WithMany(p => p.OrderTrips)
                 .HasForeignKey(d => d.CustomerId)
-                .HasConstraintName("FK__OrderTrip__custo__74AE54BC");
+                .HasConstraintName("FK__OrderTrip__custo__72C60C4A");
 
             entity.HasOne(d => d.Quotation).WithMany(p => p.OrderTrips)
                 .HasForeignKey(d => d.QuotationId)
-                .HasConstraintName("FK__OrderTrip__quota__75A278F5");
+                .HasConstraintName("FK__OrderTrip__quota__73BA3083");
 
             entity.HasOne(d => d.Trip).WithMany(p => p.OrderTrips)
                 .HasForeignKey(d => d.TripId)
-                .HasConstraintName("FK__OrderTrip__tripI__76969D2E");
+                .HasConstraintName("FK__OrderTrip__tripI__74AE54BC");
         });
 
         modelBuilder.Entity<Quotation>(entity =>
         {
-            entity.HasKey(e => e.QuotationId).HasName("PK__Quotatio__7536E3723E29A21C");
+            entity.HasKey(e => e.QuotationId).HasName("PK__Quotatio__7536E372C284C2DA");
 
             entity.ToTable("Quotation");
 
@@ -381,7 +395,7 @@ public partial class DataShopCaKoiContext : DbContext
 
         modelBuilder.Entity<SalesStaff>(entity =>
         {
-            entity.HasKey(e => e.Idnv).HasName("PK__SalesSta__B87DC9B2E644AA6F");
+            entity.HasKey(e => e.Idnv).HasName("PK__SalesSta__B87DC9B200506465");
 
             entity.ToTable("SalesStaff");
 
@@ -396,7 +410,7 @@ public partial class DataShopCaKoiContext : DbContext
             entity.HasOne(d => d.IdnvNavigation).WithOne(p => p.SalesStaff)
                 .HasForeignKey<SalesStaff>(d => d.Idnv)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__SalesStaff__IDNV__778AC167");
+                .HasConstraintName("FK__SalesStaff__IDNV__75A278F5");
 
             entity.HasOne(d => d.Quotation).WithMany(p => p.SalesStaffs)
                 .HasForeignKey(d => d.QuotationId)
@@ -405,11 +419,11 @@ public partial class DataShopCaKoiContext : DbContext
 
         modelBuilder.Entity<ShopCaKoiAccount>(entity =>
         {
-            entity.HasKey(e => e.AccId).HasName("PK__ShopCaKo__91CBC398D886D4B0");
+            entity.HasKey(e => e.AccId).HasName("PK__ShopCaKo__91CBC3982427602C");
 
             entity.ToTable("ShopCaKoiAccount");
 
-            entity.HasIndex(e => e.EmailAddress, "UQ__ShopCaKo__49A1474063BF7DDA").IsUnique();
+            entity.HasIndex(e => e.EmailAddress, "UQ__ShopCaKo__49A147408E9A2396").IsUnique();
 
             entity.Property(e => e.AccId)
                 .HasMaxLength(50)
@@ -436,6 +450,7 @@ public partial class DataShopCaKoiContext : DbContext
             entity.Property(e => e.FarmId)
                 .HasMaxLength(50)
                 .HasColumnName("farm_id");
+            entity.Property(e => e.ImageUrl).HasMaxLength(200);
             entity.Property(e => e.KoiId)
                 .HasMaxLength(50)
                 .HasColumnName("koiID");
