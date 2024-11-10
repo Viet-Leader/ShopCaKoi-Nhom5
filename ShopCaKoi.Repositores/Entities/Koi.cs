@@ -13,5 +13,11 @@ public partial class Koi
 
     public decimal? Price { get; set; }
 
+    public string? ImageUrl { get; set; }
+
+    public virtual ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
+
     public virtual ICollection<KoiFarm> KoiFarms { get; set; } = new List<KoiFarm>();
+
+    public virtual ICollection<OrderKoi> OrderKois { get; set; } = new List<OrderKoi>();
 }

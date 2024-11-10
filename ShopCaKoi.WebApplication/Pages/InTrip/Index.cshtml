@@ -1,0 +1,63 @@
+﻿@page
+@model ShopCaKoi.WebApplication.Pages.InTrip.IndexModel
+
+@{
+    ViewData["Title"] = "Our Best Tours";
+}
+
+<!-- Start Hero Section -->
+<div class="hero">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-5">
+                <div class="intro-excerpt">
+                    <h1>Trip</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Hero Section -->
+<!-- Start Column -->
+<div class="container container-wide">
+    <div class="row row-fix justify-content-xl-end row-30 text-center text-xl-left">
+        <div class="col-xl-8">
+            <div class="parallax-text-wrap">
+                <h3>Our Best Tours</h3>
+            </div>
+            <hr class="divider divider-decorate">
+        </div>
+        <div class="col-xl-3 text-xl-right">
+            <a class="button button-secondary button-nina" href="#">View all tours</a>
+        </div>
+    </div>
+    <div class="row row-50">
+        <!-- Bắt đầu vòng lặp hiển thị các chuyến đi -->
+        @foreach (var trip in Model.Trip)
+        {
+            <div class="col-md-6 col-xl-4">
+                <article class="event-default-wrap">
+                    <div class="event-default">
+                        <figure class="event-default-image">
+                            <img src="@trip.ImageUrl" alt="@trip.Farm.Name" width="570" height="370">
+                        </figure>
+                        <div class="event-default-caption">
+                            <a class="button button-xs button-secondary button-nina" href="#">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="event-default-inner">
+                        <h5><a class="event-default-title" href="farm.html">@trip.Farm.Name</a></h5>
+                        <p><strong>Thời gian:</strong> @trip.DepartureDate?.ToString("dd/MM/yyyy") - @trip.ArrivalDate?.ToString("dd/MM/yyyy")</p>
+                        <p><strong>Giá:</strong> @trip.Price?.ToString("N0") vnd</p>
+                    </div>
+                    <a class="farm-item" href="#">
+                        <span class="icon-cross-farm">
+                            <img src="/images/cross.svg" class="img-fluid" alt="Add Icon">
+                        </span>
+                    </a>
+                </article>
+            </div>
+        }
+    </div>
+</div>
+<!-- End Column -->

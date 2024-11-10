@@ -17,6 +17,8 @@ public partial class KoiFarm
 
     public string? KoiId { get; set; }
 
+    public string? ImageUrl { get; set; }
+
     public virtual Koi? Koi { get; set; }
 
     public virtual ICollection<Trip> Trips { get; set; } = new List<Trip>();
