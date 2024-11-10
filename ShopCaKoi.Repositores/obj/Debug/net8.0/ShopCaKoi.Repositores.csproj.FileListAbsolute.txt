@@ -118,3 +118,18 @@ D:\HuyHoang\project\ShopCaKoi-Nhom5\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\De
 D:\HuyHoang\project\ShopCaKoi-Nhom5\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.pdb
 D:\HuyHoang\project\ShopCaKoi-Nhom5\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.genruntimeconfig.cache
 D:\HuyHoang\project\ShopCaKoi-Nhom5\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ref\ShopCaKoi.Repositores.dll
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\bin\Debug\net8.0\ShopCaKoi.Repositores.deps.json
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\bin\Debug\net8.0\ShopCaKoi.Repositores.runtimeconfig.json
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\bin\Debug\net8.0\ShopCaKoi.Repositores.dll
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\bin\Debug\net8.0\ShopCaKoi.Repositores.pdb
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.csproj.AssemblyReference.cache
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.GeneratedMSBuildEditorConfig.editorconfig
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.AssemblyInfoInputs.cache
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.AssemblyInfo.cs
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.csproj.CoreCompileInputs.cache
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.sourcelink.json
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.dll
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\refint\ShopCaKoi.Repositores.dll
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.pdb
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.genruntimeconfig.cache
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ref\ShopCaKoi.Repositores.dll
