@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback</title>
+    <link rel="stylesheet" href="/css/style.css"> <!-- Đường dẫn tới tệp CSS trong wwwroot -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css"> <!-- Đường dẫn tới Bootstrap CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Phản Hồi Của Khách Hàng</h1>
+        <p>Chúng tôi trân trọng mọi đóng góp từ bạn để cải thiện dịch vụ.</p>
+
+        <!-- Form gửi đánh giá mới -->
+        <form method="post" action="/api/feedback">
+            <!-- Đặt đúng API endpoint nếu có -->
+            <div class="form-group">
+                <label for="Rating">Đánh giá</label>
+                <select name="rating" id="rating" class="form-control" required>
+                    <option value="5">5 Sao</option>
+                    <option value="4">4 Sao</option>
+                    <option value="3">3 Sao</option>
+                    <option value="2">2 Sao</option>
+                    <option value="1">1 Sao</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Comment">Nội dung phản hồi</label>
+                <textarea name="comment" id="comment" class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Gửi Phản Hồi</button>
+        </form>
+
+        <!-- Hiển thị các đánh giá của khách hàng -->
+        <div class="feedback-list mt-5">
+            <h2>Đánh Giá Khách Hàng</h2>
+
+            <!-- Đánh giá mẫu 1 -->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">5 sao</h5>
+                    <p class="card-text">Dịch vụ tuyệt vời! Tôi rất hài lòng với sản phẩm và sự chuyên nghiệp của đội ngũ giao hàng.</p>
+                    <p class="card-subtitle text-muted">Khách hàng: Nguyễn Minh</p>
+                </div>
+            </div>
+
+            <!-- Đánh giá mẫu 2 -->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">4 sao</h5>
+                    <p class="card-text">Koi rất khỏe mạnh, nhưng tôi hy vọng giao hàng có thể nhanh hơn một chút.</p>
+                    <p class="card-subtitle text-muted">Khách hàng: Trần Thi</p>
+                </div>
+            </div>
+
+            <!-- Đánh giá mẫu 3 -->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">3 sao</h5>
+                    <p class="card-text">Chất lượng cá ổn, nhưng không có nhiều sự lựa chọn về giống như tôi mong muốn.</p>
+                    <p class="card-subtitle text-muted">Khách hàng: Lê Hoàng</p>
+                </div>
+            </div>
+
+            <!-- Đánh giá mẫu 4 -->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">5 sao</h5>
+                    <p class="card-text">Cá đẹp, chất lượng tốt. Tôi sẽ giới thiệu cho bạn bè!</p>
+                    <p class="card-subtitle text-muted">Khách hàng: Phạm Lan</p>
+                </div>
+            </div>
+
+            <!-- Đánh giá mẫu 5 -->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">4 sao</h5>
+                    <p class="card-text">Tôi thích chất lượng cá, nhưng dịch vụ chăm sóc khách hàng có thể cải thiện thêm.</p>
+                    <p class="card-subtitle text-muted">Khách hàng: Đoàn Bình</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

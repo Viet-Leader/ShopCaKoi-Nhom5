@@ -1,21 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\ShopCaKoi-Nhom5\\",
+  "WorkspaceRootPath": "D:\\SCK\\ShopCaKoi-Nhom5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|d:\\github\\shopcakoi-nhom5\\shopcakoi.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|d:\\sck\\shopcakoi-nhom5\\shopcakoi.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|solutionrelative:shopcakoi.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|d:\\github\\shopcakoi-nhom5\\shopcakoi.webapplication\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|solutionrelative:shopcakoi.webapplication\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|d:\\sck\\shopcakoi-nhom5\\shopcakoi.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|solutionrelative:shopcakoi.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC1876F4-7C24-43C6-A761-DF149D0116D1}|ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj|d:\\github\\shopcakoi-nhom5\\shopcakoi.repositores\\entities\\datashopcakoicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|d:\\sck\\shopcakoi-nhom5\\shopcakoi.webapplication\\controller\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|solutionrelative:shopcakoi.webapplication\\controller\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|d:\\sck\\shopcakoi-nhom5\\shopcakoi.webapplication\\wwwroot\\feedback.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|solutionrelative:shopcakoi.webapplication\\wwwroot\\feedback.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|d:\\sck\\shopcakoi-nhom5\\shopcakoi.webapplication\\pages\\feedback\\feedback.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|solutionrelative:shopcakoi.webapplication\\pages\\feedback\\feedback.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|d:\\sck\\shopcakoi-nhom5\\shopcakoi.webapplication\\pages\\feedback\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D6E6A7-296F-440B-8CEE-C35C395E9260}|ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj|solutionrelative:shopcakoi.webapplication\\pages\\feedback\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D330321-921A-4049-91FC-AAECDD1C7707}|ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj|d:\\sck\\shopcakoi-nhom5\\shopcakoi.sevices\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D330321-921A-4049-91FC-AAECDD1C7707}|ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj|solutionrelative:shopcakoi.sevices\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D330321-921A-4049-91FC-AAECDD1C7707}|ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj|d:\\sck\\shopcakoi-nhom5\\shopcakoi.sevices\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D330321-921A-4049-91FC-AAECDD1C7707}|ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj|solutionrelative:shopcakoi.sevices\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC1876F4-7C24-43C6-A761-DF149D0116D1}|ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj|d:\\sck\\shopcakoi-nhom5\\shopcakoi.repositores\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC1876F4-7C24-43C6-A761-DF149D0116D1}|ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj|solutionrelative:shopcakoi.repositores\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC1876F4-7C24-43C6-A761-DF149D0116D1}|ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj|d:\\sck\\shopcakoi-nhom5\\shopcakoi.repositores\\entities\\datashopcakoicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC1876F4-7C24-43C6-A761-DF149D0116D1}|ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj|solutionrelative:shopcakoi.repositores\\entities\\datashopcakoicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguye\\AppData\\Local\\Temp\\.vsdbgsrc\\0d4748cc42abd9d6dbe0cd7827ff778366d7669dd98dfdb679dde9c99ca3b0c0\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC1876F4-7C24-43C6-A761-DF149D0116D1}|ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj|d:\\sck\\shopcakoi-nhom5\\shopcakoi.repositores\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC1876F4-7C24-43C6-A761-DF149D0116D1}|ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj|solutionrelative:shopcakoi.repositores\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,59 +54,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataShopCaKoiContext.cs",
-              "DocumentMoniker": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\Entities\\DataShopCaKoiContext.cs",
-              "RelativeDocumentMoniker": "ShopCaKoi.Repositores\\Entities\\DataShopCaKoiContext.cs",
-              "ToolTip": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\Entities\\DataShopCaKoiContext.cs",
-              "RelativeToolTip": "ShopCaKoi.Repositores\\Entities\\DataShopCaKoiContext.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADEAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T15:26:26.53Z",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShopCaKoi.WebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ShopCaKoi.WebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAALgAAAAAAAAAAAAgwPUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T01:52:20.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "ShopCaKoi.WebApplication\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "ShopCaKoi.WebApplication\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T07:59:15.167Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "ShopCaKoi.WebApplication\\Program.cs",
+              "ToolTip": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\Program.cs",
+              "RelativeToolTip": "ShopCaKoi.WebApplication\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwGAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T01:52:14.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ShopCaKoi.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ShopCaKoi.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAIMAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T07:51:46.076Z",
+              "DocumentIndex": 2,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\controller\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "ShopCaKoi.WebApplication\\controller\\FeedbackController.cs",
+              "ToolTip": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\controller\\FeedbackController.cs",
+              "RelativeToolTip": "ShopCaKoi.WebApplication\\controller\\FeedbackController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T01:52:06.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\AppData\\Local\\Temp\\.vsdbgsrc\\0d4748cc42abd9d6dbe0cd7827ff778366d7669dd98dfdb679dde9c99ca3b0c0\\Program.cs",
-              "ToolTip": "C:\\Users\\nguye\\AppData\\Local\\Temp\\.vsdbgsrc\\0d4748cc42abd9d6dbe0cd7827ff778366d7669dd98dfdb679dde9c99ca3b0c0\\Program.cs",
+              "Title": "feedback.html",
+              "DocumentMoniker": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\feedback.html",
+              "RelativeDocumentMoniker": "ShopCaKoi.WebApplication\\wwwroot\\feedback.html",
+              "ToolTip": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\wwwroot\\feedback.html",
+              "RelativeToolTip": "ShopCaKoi.WebApplication\\wwwroot\\feedback.html",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-13T01:51:34.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Feedback.cshtml.cs",
+              "DocumentMoniker": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\Pages\\Feedback\\Feedback.cshtml.cs",
+              "RelativeDocumentMoniker": "ShopCaKoi.WebApplication\\Pages\\Feedback\\Feedback.cshtml.cs",
+              "ToolTip": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\Pages\\Feedback\\Feedback.cshtml.cs",
+              "RelativeToolTip": "ShopCaKoi.WebApplication\\Pages\\Feedback\\Feedback.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T09:50:28.832Z"
+              "WhenOpened": "2024-11-13T01:51:03.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Feedback.cshtml",
+              "DocumentMoniker": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\Pages\\Feedback\\Feedback.cshtml",
+              "RelativeDocumentMoniker": "ShopCaKoi.WebApplication\\Pages\\Feedback\\Feedback.cshtml",
+              "ToolTip": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\Pages\\Feedback\\Feedback.cshtml",
+              "RelativeToolTip": "ShopCaKoi.WebApplication\\Pages\\Feedback\\Feedback.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T01:50:51.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\Interfaces\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "ShopCaKoi.Sevices\\Interfaces\\ICustomerService.cs",
+              "ToolTip": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\Interfaces\\ICustomerService.cs",
+              "RelativeToolTip": "ShopCaKoi.Sevices\\Interfaces\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T01:50:02.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\CustomerService.cs",
+              "RelativeDocumentMoniker": "ShopCaKoi.Sevices\\CustomerService.cs",
+              "ToolTip": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\CustomerService.cs",
+              "RelativeToolTip": "ShopCaKoi.Sevices\\CustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T01:49:54.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\Interfaces\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "ShopCaKoi.Repositores\\Interfaces\\ICustomerRepository.cs",
+              "ToolTip": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\Interfaces\\ICustomerRepository.cs",
+              "RelativeToolTip": "ShopCaKoi.Repositores\\Interfaces\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T01:49:43.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "ShopCaKoi.Repositores\\CustomerRepository.cs",
+              "ToolTip": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\CustomerRepository.cs",
+              "RelativeToolTip": "ShopCaKoi.Repositores\\CustomerRepository.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAgwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T01:49:06.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataShopCaKoiContext.cs",
+              "DocumentMoniker": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\Entities\\DataShopCaKoiContext.cs",
+              "RelativeDocumentMoniker": "ShopCaKoi.Repositores\\Entities\\DataShopCaKoiContext.cs",
+              "ToolTip": "D:\\SCK\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\Entities\\DataShopCaKoiContext.cs",
+              "RelativeToolTip": "ShopCaKoi.Repositores\\Entities\\DataShopCaKoiContext.cs",
+              "ViewState": "AgIAAJEBAAAAAAAAAAAgwM4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:26:26.53Z",
+              "EditorCaption": ""
             }
           ]
         }

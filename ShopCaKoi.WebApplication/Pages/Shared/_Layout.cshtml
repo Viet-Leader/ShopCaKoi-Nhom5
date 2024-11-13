@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header>
+	<header>
 		<!--Search Box-->
 		<div id="search-box" class="search-box bg-dark position-relative">
 			<div class="search-wrap">
@@ -46,6 +46,7 @@
 						<li><a class="nav-link" href="farm.html">Farm</a></li>
 						<li><a class="nav-link" href="/services.html">Services</a></li>
 						<li><a class="nav-link" href="/contact.html">Contact us</a></li>
+						<li><a class="nav-link" href="/feedback.html">Feedback</a></li>
 					</ul>
 					<ul class="custom-navbar-cta navbar-nav ms-5">
 						<li>
@@ -125,12 +126,12 @@
 				</div>
 			</div>
 		</nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+	</header>
+	<div class="container">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
 
 	<footer class="footer-section">
 		<div class="container relative">
@@ -240,6 +241,6 @@
 	<script src="/js/tiny-slider.js"></script>
 	<script src="/js/custom.js"></script>
 
-    @await RenderSectionAsync("Scripts", required: false)
+	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

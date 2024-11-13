@@ -1,0 +1,115 @@
+﻿@page "{customerId?}"
+@model ShopCaKoi.WebApplication.Pages.Feedback.FeedbackModel
+@{
+    ViewData["Title"] = "Đánh Giá Khách Hàng";
+}
+
+<div class="container">
+    <h1>Đánh Giá Khách Hàng</h1>
+    <p>Chúng tôi luôn lắng nghe và cải thiện dịch vụ của mình.</p>
+
+    <!-- Form Gửi Đánh Giá -->
+    <form id="feedbackForm">
+        <div class="form-group">
+            <label for="Rating">Đánh giá</label>
+            <select id="Rating" name="Rating" class="form-control" required>
+                <option value="5">5 Sao</option>
+                <option value="4">4 Sao</option>
+                <option value="3">3 Sao</option>
+                <option value="2">2 Sao</option>
+                <option value="1">1 Sao</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Comment">Nội dung</label>
+            <textarea id="Comment" name="Comment" class="form-control" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Gửi Phản Hồi</button>
+    </form>
+
+    <!-- Hiển Thị Các Đánh Giá -->
+    <div class="feedback-list mt-5">
+        <h2>Các Đánh Giá</h2>
+        <div id="feedbacks">
+            @foreach (var feedback in Model.CustomerFeedbacks)
+            {
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">@feedback.Rating sao</h5>
+                        <p class="card-text">@feedback.Comment</p>
+                        <p class="card-subtitle text-muted">Khách hàng: @feedback.Customer?.Name ?? "Ẩn danh"</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        // Xử lý gửi form thông qua AJAX
+        $('#feedbackForm').submit(function (event) {
+            event.preventDefault(); // Ngăn chặn hành vi mặc định của form
+
+            const feedbackData = {
+                Rating: $('#Rating').val(),
+                Comment: $('#Comment').val()
+            };
+
+            $.ajax({
+                url: '/api/feedback', // Đường dẫn API
+                method: 'POST', // Phương thức gửi POST
+                contentType: 'application/json', // Đảm bảo Content-Type là JSON
+                data: JSON.stringify(feedbackData), // Dữ liệu gửi đi
+                success: function () {
+                    // Xóa dữ liệu form sau khi gửi
+                    $('#Rating').val('');
+                    $('#Comment').val('');
+
+                    // Gọi API để lấy danh sách feedback mới nhất
+                    loadFeedbacks();
+                },
+                error: function () {
+                    alert('Có lỗi xảy ra. Vui lòng thử lại.');
+                }
+            });
+        });
+
+        // Hàm tải danh sách phản hồi mới nhất
+        function loadFeedbacks() {
+            $.ajax({
+                url: '/api/feedback', // Đường dẫn API để lấy danh sách phản hồi
+                method: 'GET', // Phương thức GET để lấy dữ liệu
+                success: function (data) {
+                    // Làm rỗng danh sách hiện tại
+                    $('#feedbacks').empty();
+
+                    // Duyệt qua từng feedback và thêm vào danh sách
+                    data.forEach(function (feedback) {
+                        const newFeedback = `
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">${feedback.rating} sao</h5>
+                                        <p class="card-text">${feedback.comment}</p>
+                                        <p class="card-subtitle text-muted">Khách hàng: ${feedback.customer?.name ?? 'Ẩn danh'}</p>
+                                    </div>
+                                </div>
+                            `;
+                        // Thêm phản hồi mới vào đầu danh sách
+                        $('#feedbacks').prepend(newFeedback);
+                    });
+                },
+                error: function () {
+                    alert('Không thể tải danh sách phản hồi.');
+                }
+            });
+        }
+
+        // Gọi hàm để tải danh sách phản hồi khi trang được tải
+        $(document).ready(function () {
+            loadFeedbacks();
+        });
+    </script>
+}
