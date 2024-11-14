@@ -110,3 +110,19 @@ D:\HuyHoang\project\ShopCaKoi-Nhom5\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\
 D:\HuyHoang\project\ShopCaKoi-Nhom5\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\refint\ShopCaKoi.Sevices.dll
 D:\HuyHoang\project\ShopCaKoi-Nhom5\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.pdb
 D:\HuyHoang\project\ShopCaKoi-Nhom5\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ref\ShopCaKoi.Sevices.dll
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\bin\Debug\net8.0\ShopCaKoi.Sevices.deps.json
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\bin\Debug\net8.0\ShopCaKoi.Sevices.dll
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\bin\Debug\net8.0\ShopCaKoi.Sevices.pdb
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\bin\Debug\net8.0\ShopCaKoi.Repositores.dll
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\bin\Debug\net8.0\ShopCaKoi.Repositores.pdb
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.csproj.AssemblyReference.cache
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.GeneratedMSBuildEditorConfig.editorconfig
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.AssemblyInfoInputs.cache
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.AssemblyInfo.cs
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.csproj.CoreCompileInputs.cache
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.sourcelink.json
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKo.7B725ED4.Up2Date
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.dll
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\refint\ShopCaKoi.Sevices.dll
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ShopCaKoi.Sevices.pdb
+C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Sevices\obj\Debug\net8.0\ref\ShopCaKoi.Sevices.dll
