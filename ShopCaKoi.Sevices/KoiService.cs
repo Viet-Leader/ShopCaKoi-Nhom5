@@ -32,6 +32,11 @@ namespace ShopCaKoi.Services
 			return _repository.DelKoi(id);
 		}
 
+		public Task<IEnumerable<Koi>> GetKoiByFarmIdAsync(string id)
+		{
+			return _repository.GetKoiByFarmIdAsync(id);
+		}
+
 		public Task<Koi> GetKoiById(string id)
 		{
 			return _repository.GetKoiById(id);

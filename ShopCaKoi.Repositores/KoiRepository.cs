@@ -67,6 +67,15 @@ namespace ShopCaKoi.Repositores
 
 		}
 
+		public async Task<IEnumerable<Koi>> GetKoiByFarmIdAsync(string id)
+		{
+			return await _dbContext.FarmKois
+			.Where(fk => fk.FarmId == id)
+			.Include(fk => fk.Koi)
+			.Select(fk => fk.Koi)
+			.ToListAsync();
+		}
+
 		public async Task<Koi> GetKoiById(string id)
 		{
 			return await _dbContext.Kois.Where(p => p.KoiId.Equals(id)).FirstOrDefaultAsync();
