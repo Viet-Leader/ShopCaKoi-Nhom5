@@ -71,6 +71,7 @@ namespace ShopCaKoi.Repositores
 		{
 			return await _dbContext.KoiFarms.Where(p => p.FarmId.Equals(id)).FirstOrDefaultAsync();
 		}
+		
 
 		public async Task<List<KoiFarm>> GetKoiFarmsAsync()
 		{
@@ -94,7 +95,9 @@ namespace ShopCaKoi.Repositores
 			{
 				return false;
 			}
+
 		}
-	}
+       
+    }
 }
 

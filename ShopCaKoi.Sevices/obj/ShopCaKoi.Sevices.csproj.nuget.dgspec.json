@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HuyHoang\\project\\ShopCaKoi-Nhom5\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj": {}
+    "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj": {}
   },
   "projects": {
-    "D:\\HuyHoang\\project\\ShopCaKoi-Nhom5\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj": {
+    "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HuyHoang\\project\\ShopCaKoi-Nhom5\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj",
+        "projectUniqueName": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj",
         "projectName": "ShopCaKoi.Repositores",
-        "projectPath": "D:\\HuyHoang\\project\\ShopCaKoi-Nhom5\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\HuyHoang\\project\\ShopCaKoi-Nhom5\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\obj\\",
+        "projectPath": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -85,24 +85,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\HuyHoang\\project\\ShopCaKoi-Nhom5\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj": {
+    "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HuyHoang\\project\\ShopCaKoi-Nhom5\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj",
+        "projectUniqueName": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj",
         "projectName": "ShopCaKoi.Sevices",
-        "projectPath": "D:\\HuyHoang\\project\\ShopCaKoi-Nhom5\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\HuyHoang\\project\\ShopCaKoi-Nhom5\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\obj\\",
+        "projectPath": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -118,8 +118,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\HuyHoang\\project\\ShopCaKoi-Nhom5\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj": {
-                "projectPath": "D:\\HuyHoang\\project\\ShopCaKoi-Nhom5\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj"
+              "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj": {
+                "projectPath": "D:\\Github\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj"
               }
             }
           }
@@ -154,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
