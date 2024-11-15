@@ -1675,3 +1675,4 @@ C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\obj\Debug\net8.0\
 C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\obj\Debug\net8.0\ShopCaKoi.WebApplication.pdb
 C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\obj\Debug\net8.0\ShopCaKoi.WebApplication.genruntimeconfig.cache
 C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\obj\Debug\net8.0\ref\ShopCaKoi.WebApplication.dll
+D:\Project-ShopCaKoi\ShopCaKoi-Nhom5\ShopCaKoi.WebApplication\bin\Debug\net8.0\BCrypt.Net-Next.dll
