@@ -18,6 +18,6 @@ namespace ShopCaKoi.Sevices.Interfaces
         Task<Trip> GetTripById(string id);
         Boolean TripExists(string id);
         Task<IList<Trip>> GetTripsWithDetailsAsync();
-        Task<List<Trip>> SearchTripsAsync(string keyword);
+        Task<IEnumerable<Trip>> SearchTripsAsync(string keyword, double? price, DateTime? startDate, DateTime? endDate);
     }
 }

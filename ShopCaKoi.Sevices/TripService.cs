@@ -63,9 +63,9 @@ namespace ShopCaKoi.Services
             return _repository.GetTripsWithDetailsAsync();
         }
 
-        public Task<List<Trip>> SearchTripsAsync(string keyword)
+        public Task<IEnumerable<Trip>> SearchTripsAsync(string keyword, double? price, DateTime? startDate, DateTime? endDate)
         {
-            return _repository.SearchTripsAsync(keyword);
+            return _repository.SearchTripsAsync(keyword,price,startDate,endDate);
         }
     }
 }

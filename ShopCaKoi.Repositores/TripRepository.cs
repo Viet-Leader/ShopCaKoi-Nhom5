@@ -107,14 +107,25 @@ namespace ShopCaKoi.Repositores
             return query.ToList();
         }
 
-        public async Task<List<Trip>> SearchTripsAsync(string keyword)
+        public async Task<IEnumerable<Trip>> SearchTripsAsync(string keyword, double? price, DateTime? startDate, DateTime? endDate)
         {
+            var keywordUpper = keyword.ToUpper();
+
             var trips = await _dbContext.Trips
                 .Include(t => t.Farm)
-                .ThenInclude(t => t.Koi)
-                .Where(t => t.Farm.Name.ToUpper().Contains(keyword) || t.Farm.Koi.Species.ToUpper().Contains(keyword)).ToListAsync();
-            return trips;
+                    .ThenInclude(f => f.Koi)
+                .Where(t =>
+                    t.Farm.Name.ToUpper().Contains(keywordUpper) ||
+                    _dbContext.FarmKois
+                        .Where(fk => fk.FarmId == t.FarmId)
+                        .Any(fk => fk.Koi.Species.ToUpper().Contains(keywordUpper)) ||
+                    (price.HasValue && t.Price == price) ||  // Tìm theo Price (double?)
+                    (!startDate.HasValue || t.DepartureDate == DateOnly.FromDateTime(startDate.Value)) ||  // Chuyển DateTime sang DateOnly để so sánh
+                    (!endDate.HasValue || t.ArrivalDate == DateOnly.FromDateTime(endDate.Value))  // Chuyển DateTime sang DateOnly để so sánh
+                )
+                .ToListAsync(); // Gọi ToListAsync sau khi hoàn thành truy vấn
 
+            return trips;
         }
 
         public bool TripExists(string id)

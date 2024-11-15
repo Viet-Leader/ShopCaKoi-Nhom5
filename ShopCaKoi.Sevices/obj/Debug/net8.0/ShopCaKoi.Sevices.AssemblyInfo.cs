@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShopCaKoi.Sevices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db1a9516890eb31861e0353d988e02107cdf264e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fde41f6624ddec0df0296de6f769e81d84b71a49")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShopCaKoi.Sevices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShopCaKoi.Sevices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
