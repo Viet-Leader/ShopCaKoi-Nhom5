@@ -1,0 +1,40 @@
+﻿@page
+@model ShopCaKoi.WebApplication.Pages.Feedback.FeedbackModel
+@{
+    ViewData["Title"] = "Customer Feedback";
+}
+
+<div class="container">
+    <h1>Phản Hồi Của Khách Hàng</h1>
+    <p>Chúng tôi trân trọng mọi đóng góp từ bạn để cải thiện dịch vụ.</p>
+
+    <!-- Form gửi phản hồi -->
+    <form method="post">
+        <div class="form-group">
+            <label for="Comment">Nội dung phản hồi</label>
+            <textarea asp-for="NewFeedback.Comment" id="Comment" class="form-control" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Gửi Phản Hồi</button>
+    </form>
+
+    <!-- Hiển thị danh sách phản hồi -->
+    <div class="feedback-list mt-5">
+        <h2>Danh Sách Phản Hồi</h2>
+        @if (Model.Feedbacks != null && Model.Feedbacks.Any())
+        {
+            @foreach (var feedback in Model.Feedbacks)
+            {
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <p class="card-text">@feedback.Comment</p>
+                        <p class="card-subtitle text-muted">Khách hàng: @feedback.Customer?.Name ?? "Ẩn danh"</p>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Chưa có phản hồi nào được gửi.</p>
+        }
+    </div>
+</div>

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj": {}
+    "D:\\ShopCa\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj": {}
   },
   "projects": {
-    "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj": {
+    "D:\\ShopCa\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj",
+        "projectUniqueName": "D:\\ShopCa\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj",
         "projectName": "ShopCaKoi.Repositores",
-        "projectPath": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj",
-        "packagesPath": "C:\\Users\\Quốc Việt\\.nuget\\packages\\",
-        "outputPath": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\obj\\",
+        "projectPath": "D:\\ShopCa\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\ShopCaKoi.Repositores.csproj",
+        "packagesPath": "C:\\Users\\Hoang\\.nuget\\packages\\",
+        "outputPath": "D:\\ShopCa\\ShopCaKoi-Nhom5\\ShopCaKoi.Repositores\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Quốc Việt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -80,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

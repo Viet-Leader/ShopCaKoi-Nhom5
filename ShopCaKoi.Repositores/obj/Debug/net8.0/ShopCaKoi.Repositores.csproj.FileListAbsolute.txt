@@ -133,3 +133,18 @@ C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ref
 C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.pdb
 C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.genruntimeconfig.cache
 C:\CLONE SIEU MOI KOI\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ref\ShopCaKoi.Repositores.dll
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\bin\Debug\net8.0\ShopCaKoi.Repositores.deps.json
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\bin\Debug\net8.0\ShopCaKoi.Repositores.runtimeconfig.json
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\bin\Debug\net8.0\ShopCaKoi.Repositores.dll
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\bin\Debug\net8.0\ShopCaKoi.Repositores.pdb
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.csproj.AssemblyReference.cache
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.GeneratedMSBuildEditorConfig.editorconfig
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.AssemblyInfoInputs.cache
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.AssemblyInfo.cs
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.csproj.CoreCompileInputs.cache
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.sourcelink.json
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.dll
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\refint\ShopCaKoi.Repositores.dll
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.pdb
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ShopCaKoi.Repositores.genruntimeconfig.cache
+D:\ShopCa\ShopCaKoi-Nhom5\ShopCaKoi.Repositores\obj\Debug\net8.0\ref\ShopCaKoi.Repositores.dll

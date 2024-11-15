@@ -7796,19 +7796,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Quốc Việt\\.nuget\\packages\\": {}
+    "C:\\Users\\Hoang\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj",
+      "projectUniqueName": "D:\\ShopCa\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj",
       "projectName": "ShopCaKoi.WebApplication",
-      "projectPath": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj",
-      "packagesPath": "C:\\Users\\Quốc Việt\\.nuget\\packages\\",
-      "outputPath": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\",
+      "projectPath": "D:\\ShopCa\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\ShopCaKoi.WebApplication.csproj",
+      "packagesPath": "C:\\Users\\Hoang\\.nuget\\packages\\",
+      "outputPath": "D:\\ShopCa\\ShopCaKoi-Nhom5\\ShopCaKoi.WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Quốc Việt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7816,14 +7816,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj": {
-              "projectPath": "D:\\Project-ShopCaKoi\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj"
+            "D:\\ShopCa\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj": {
+              "projectPath": "D:\\ShopCa\\ShopCaKoi-Nhom5\\ShopCaKoi.Sevices\\ShopCaKoi.Sevices.csproj"
             }
           }
         }
@@ -7873,7 +7874,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
