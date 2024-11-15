@@ -28,7 +28,8 @@ namespace ShopCaKoi.WebApplication.Pages.Profiles
             {
                 return Page();
             }
-            bool isExists = await _service.CustomerExists(Customer.CustomerId, Customer.Email);
+			Customer.CustomerId = Guid.NewGuid().ToString();
+			bool isExists = await _service.CustomerExists(Customer.CustomerId, Customer.Email);
             if (isExists)
             {
                 ModelState.AddModelError(string.Empty, "Email hoặc ID đã tồn tại.");

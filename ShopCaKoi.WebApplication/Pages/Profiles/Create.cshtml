@@ -17,12 +17,6 @@
     <div asp-validation-summary="All" class="text-danger"></div>
 
     <div class="form-group">
-        <label asp-for="Customer.CustomerId"></label>
-        <input asp-for="Customer.CustomerId" class="form-control" />
-        <span asp-validation-for="Customer.CustomerId" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
         <label asp-for="Customer.Name"></label>
         <input asp-for="Customer.Name" class="form-control" />
         <span asp-validation-for="Customer.Name" class="text-danger"></span>
@@ -45,7 +39,11 @@
         <input asp-for="Customer.Address" class="form-control" />
         <span asp-validation-for="Customer.Address" class="text-danger"></span>
     </div>
-
+    <div class="form-group">
+        <label asp-for="Customer.CustomerPassword"></label>
+        <input asp-for="Customer.CustomerPassword" class="form-control" />
+        <span asp-validation-for="Customer.CustomerPassword" class="text-danger"></span>
+    </div>
     <button type="submit" class="btn btn-primary mt-3">Đăng ký</button>
 </form>
 

@@ -16,5 +16,7 @@ namespace ShopCaKoi.Repositores.Interfaces
 		Boolean UpdKoi(Koi infor);
 		Boolean KoiExists(string id);
 		Task<Koi> GetKoiById(string id);
+		Task<IEnumerable<Koi>> GetKoiByFarmIdAsync(string id);
+
 	}
 }

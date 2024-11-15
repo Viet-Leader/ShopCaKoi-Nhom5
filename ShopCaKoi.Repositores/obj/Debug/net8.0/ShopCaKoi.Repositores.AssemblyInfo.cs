@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShopCaKoi.Repositores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c7f8d4453265ee1ce3ac29b8813ffd124f85bab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db1a9516890eb31861e0353d988e02107cdf264e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShopCaKoi.Repositores")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShopCaKoi.Repositores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

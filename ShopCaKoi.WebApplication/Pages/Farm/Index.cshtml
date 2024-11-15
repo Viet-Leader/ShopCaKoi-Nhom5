@@ -1,0 +1,38 @@
+﻿@page
+@model ShopCaKoi.WebApplication.Pages.Farm.IndexModel
+@{
+}
+<!-- Start Hero Section -->
+<div class="hero">
+	<div class="container">
+		<div class="row justify-content-between">
+			<div class="col-lg-5">
+				<div class="intro-excerpt">
+					<h1>Farm</h1>
+				</div>
+			</div>
+			<div class="col-lg-7">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Hero Section -->
+<!--Start InforFarm -->
+<div class="center-container">
+	@foreach (var koifarm in Model.KoiFarm)
+	{
+		<div class="review-container">
+			<div class="image-section">
+				<!-- Khi nhấn vào hình ảnh sẽ chuyển tới trang Details của KoiFarm -->
+				<a href="/Farm/Details?id=@koifarm.FarmId">
+					<img src="@koifarm.ImageUrl" alt="@koifarm.Name">
+				</a>
+			</div>
+			<div class="text-section">
+				<h2>@koifarm.Name</h2>
+				<p><strong>Địa điểm:</strong> @koifarm.Location</p>
+				<p><strong>Liên Lạc:</strong> @koifarm.ContactInfo</p>
+			</div>
+		</div>
+	}
+	<!--End InforFarm-->
