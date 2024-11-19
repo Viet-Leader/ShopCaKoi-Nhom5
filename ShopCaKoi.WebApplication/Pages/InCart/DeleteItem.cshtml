@@ -1,0 +1,20 @@
+﻿@page
+@model ShopCaKoi.WebApplication.Pages.InCart.DeleteItemModel
+
+@{
+    ViewData["Title"] = "Delete Item from Cart";
+}
+
+<h2>Delete Item</h2>
+
+<form method="post">
+    <div class="alert alert-warning">
+        Are you sure you want to remove this item from your cart?
+    </div>
+
+    <div>
+        <input type="hidden" asp-for="ItemId" />
+        <button type="submit" class="btn btn-danger">Yes, remove item</button>
+        <a href="@Model.ReturnUrl" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>

@@ -5,7 +5,7 @@ namespace ShopCaKoi.Repositores.Entities;
 
 public partial class Customer
 {
-    public string CustomerId { get; set; } = Guid.NewGuid().ToString()!;
+    public string CustomerId { get; set; } = null!;
 
     public string Name { get; set; } = null!;
 
@@ -17,9 +17,13 @@ public partial class Customer
 
     public string? CustomerPassword { get; set; }
 
+    public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
+
     public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>();
 
     public virtual ICollection<OrderKoi> OrderKois { get; set; } = new List<OrderKoi>();
 
     public virtual ICollection<OrderTrip> OrderTrips { get; set; } = new List<OrderTrip>();
+
+    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 }

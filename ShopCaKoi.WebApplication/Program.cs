@@ -2,6 +2,8 @@ using ShopCaKoi.Repositores;
 using ShopCaKoi.Repositores.Entities;
 using ShopCaKoi.Repositores.Interfaces;
 using ShopCaKoi.Services;
+using ShopCaKoi.Sevices;
+using ShopCaKoi.Sevices.Interfaces;
 using ShopCaKoi.Sevices.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,13 +17,17 @@ builder.Services.AddScoped<ITripRepository, TripRepository>();
 builder.Services.AddScoped<IKoiRepository, KoiRepository>();
 builder.Services.AddScoped<IKoiFarmRepository, KoiFarmRepository>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<ICartRepository, CartRepository>();
+
 
 //DI Service
 builder.Services.AddScoped<IShopCaKoiAccountService, ShopCaKoiAccountService>();
 builder.Services.AddScoped<ITripService, TripService>();
 builder.Services.AddScoped<IKoiService, KoiService>();
 builder.Services.AddScoped<IKoiFarmService, KoiFarmService>();
-builder.Services.AddScoped<ICustomerService,CustomerService>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
+builder.Services.AddScoped<ICartService, CartService>();
+
 
 builder.Services.AddSession(options =>
 {
@@ -36,9 +42,9 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+	app.UseExceptionHandler("/Error");
+	// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+	app.UseHsts();
 }
 
 app.UseDefaultFiles();
@@ -56,3 +62,4 @@ app.UseSession();
 app.MapRazorPages();
 
 app.Run();
+app.UseHttpsRedirection();

@@ -31,9 +31,12 @@
                             <img src="@koi.ImageUrl" class="img-fluid product-thumbnail" alt="@koi.Species">
                             <h3 class="product-title">@koi.Species @koi.Size cm</h3>
                             <strong class="product-price">@String.Format("{0:0,0} vnd", koi.Price)</strong>
-                            <span class="icon-cross">
-                                <img src="/images/cross.svg" class="img-fluid">
-                            </span>
+                        <form method="post" asp-page-handler="AddToCart">
+                            <input type="hidden" name="KoiId" value="@koi.KoiId" />
+                            <input type="hidden" name="price" value="@koi.Price" />
+                            <input type="hidden" name="quantity" value="1" />
+                            <button class="btn btn-primary btn-sm" type="submit">Add to Cart</button>
+                        </form>
                         </a>
                     </div>
             }

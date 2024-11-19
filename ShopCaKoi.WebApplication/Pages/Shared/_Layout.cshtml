@@ -22,14 +22,15 @@
 		<!--Search Box-->
 		<div id="search-box" class="search-box bg-dark position-relative">
 			<div class="search-wrap">
+				<div class="close-button"></div>
 				<form id="search-form" class="text-lg-center text-md-left pt-3" action="/Search/Search" method="get">
 					<input type="text"
-						   name="input"
+						   name="query"
 						   class="search-input"
-						   placeholder="Enter keyword, price, or date..."
-						   value="@Context.Request.Query["input"]"
+						   placeholder="Search..."
+						   value="@Context.Request.Query["query"]"
 						   onkeydown="if (event.key === 'Enter') { this.form.submit(); event.preventDefault(); }" />
-					<button type="submit" class="btn btn-primary">Search</button>
+
 				</form>
 			</div>
 		</div>
@@ -86,12 +87,12 @@
 															<input type="password" minlength="2" name="Password" id="sign-in-password"
 																   placeholder="Nhập Mật Khẩu" class="form-control w-100 rounded-3 p-3" required>
 														</div>
-														
+
 														<div class="d-flex justify-content-between align-items-center">
 															<button type="submit" class="btn btn-dark w-100 my-3">Login</button>
 														</div>
 														<div class="text-center">
-															
+
 															<p>Nếu chưa có tài khoản, <a href="/Profiles/Create" class="fw-bold">Đăng Ký</a></p>
 														</div>
 													</form>
@@ -208,7 +209,7 @@
 							</ul>
 						</div>
 
-						
+
 					</div>
 				</div>
 
@@ -244,7 +245,7 @@
 
 			if (isLoggedIn) {
 				// Nếu đã đăng nhập, điều hướng đến trang giỏ hàng
-				window.location.href = '/cart.html';
+				window.location.href = '/InCart/InCart';
 			} else {
 				// Nếu chưa đăng nhập, hiển thị modal đăng nhập
 				var loginModal = new bootstrap.Modal(document.getElementById('authModal'));

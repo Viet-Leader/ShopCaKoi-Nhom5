@@ -7,7 +7,11 @@ public partial class CartItem
 {
     public string CartItemId { get; set; } = null!;
 
+    public string CartId { get; set; } = null!;
+
     public string? KoiId { get; set; }
+
+    public string? TripId { get; set; }
 
     public decimal Price { get; set; }
 
@@ -15,7 +19,7 @@ public partial class CartItem
 
     public decimal? Total { get; set; }
 
-    public string? TripId { get; set; }
+    public virtual Cart Cart { get; set; } = null!;
 
     public virtual Koi? Koi { get; set; }
 
