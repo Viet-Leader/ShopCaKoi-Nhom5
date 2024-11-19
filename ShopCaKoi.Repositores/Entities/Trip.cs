@@ -29,5 +29,7 @@ public partial class Trip
 
     public virtual Koi? Koi { get; set; }
 
+    public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+
     public virtual ICollection<OrderTrip> OrderTrips { get; set; } = new List<OrderTrip>();
 }

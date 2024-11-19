@@ -19,6 +19,8 @@ public partial class Koi
 
     public virtual ICollection<KoiFarm> KoiFarms { get; set; } = new List<KoiFarm>();
 
+    public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+
     public virtual ICollection<OrderKoi> OrderKois { get; set; } = new List<OrderKoi>();
 
     public virtual ICollection<Trip> Trips { get; set; } = new List<Trip>();

@@ -32,7 +32,7 @@
         </div>
     </div>
     <div class="row row-50">
-        <!-- Bắt đầu vòng lặp hiển thị các chuyến đi -->
+        <!-- Hiển thị danh sách các chuyến đi -->
         @foreach (var trip in Model.Trip)
         {
             <div class="col-md-6 col-xl-4">
@@ -49,12 +49,13 @@
                         <h5><a class="event-default-title" href="farm.html">@trip.Farm.Name</a></h5>
                         <p><strong>Thời gian:</strong> @trip.DepartureDate?.ToString("dd/MM/yyyy") - @trip.ArrivalDate?.ToString("dd/MM/yyyy")</p>
                         <p><strong>Giá:</strong> @trip.Price?.ToString("N0") vnd</p>
+                        <form method="post" asp-page-handler="AddToCart">
+                            <input type="hidden" name="tripId" value="@trip.TripId" />
+                            <input type="hidden" name="price" value="@trip.Price" />
+                            <input type="hidden" name="quantity" value="1" />
+                            <button class="btn btn-primary btn-sm" type="submit">Add to Cart</button>
+                        </form>
                     </div>
-                    <a class="farm-item" href="#">
-                        <span class="icon-cross-farm">
-                            <img src="/images/cross.svg" class="img-fluid" alt="Add Icon">
-                        </span>
-                    </a>
                 </article>
             </div>
         }
