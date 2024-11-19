@@ -22,15 +22,14 @@
 		<!--Search Box-->
 		<div id="search-box" class="search-box bg-dark position-relative">
 			<div class="search-wrap">
-				<div class="close-button"></div>
 				<form id="search-form" class="text-lg-center text-md-left pt-3" action="/Search/Search" method="get">
 					<input type="text"
-						   name="query"
+						   name="input"
 						   class="search-input"
-						   placeholder="Search..."
-						   value="@Context.Request.Query["query"]"
+						   placeholder="Enter keyword, price, or date..."
+						   value="@Context.Request.Query["input"]"
 						   onkeydown="if (event.key === 'Enter') { this.form.submit(); event.preventDefault(); }" />
-					
+					<button type="submit" class="btn btn-primary">Search</button>
 				</form>
 			</div>
 		</div>
@@ -107,7 +106,7 @@
 						{
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-									<span class="me-2">@Context.Session.GetString("CustomerName")</span>
+									<span class="me-2" style="color:aliceblue">@Context.Session.GetString("CustomerName")</span>
 
 								</a>
 								<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">

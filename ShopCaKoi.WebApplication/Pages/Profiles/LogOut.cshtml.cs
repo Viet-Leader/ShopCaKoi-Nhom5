@@ -9,6 +9,7 @@ namespace ShopCaKoi.WebApplication.Pages.Profiles
         {
             // Xóa session của khách hàng
             HttpContext.Session.Remove("CustomerName");
+            HttpContext.Session.Remove("CustomerId");
 
             // Chuyển hướng tới trang chính hoặc trang đăng nhập
             return RedirectToPage("/Index");
