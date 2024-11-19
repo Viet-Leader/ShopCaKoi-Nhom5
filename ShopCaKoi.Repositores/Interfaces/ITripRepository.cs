@@ -18,7 +18,7 @@ namespace ShopCaKoi.Repositores.Interfaces
         Task<Trip> GetTripById(string id);
         Boolean TripExists(string id);
         Task<IList<Trip>> GetTripsWithDetailsAsync();
-        Task<List<Trip>> SearchTripsAsync(string keyword);
+        Task<List<Trip>> SearchTripsAsync(string? query, double? price, DateTime? date);
 
     }
 }
