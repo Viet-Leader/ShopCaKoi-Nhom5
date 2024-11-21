@@ -43,7 +43,7 @@ namespace ShopCaKoi.WebApplication.Pages.Profiles
                 return Page();
             }
             TempData["SuccessMessage"] = "Đăng ký thành công! Bạn sẽ được chuyển hướng về trang chủ.";
-            return RedirectToPage("/Index");
+            return RedirectToPage("/Profiles/Suscess");
 
         }
     }
