@@ -5,7 +5,7 @@ namespace ShopCaKoi.Repositores.Entities;
 
 public partial class Cart
 {
-    public string CartId { get; set; } = null!;
+    public string CartId { get; set; } = Guid.NewGuid().ToString()!;
 
     public string CustomerId { get; set; } = null!;
 
