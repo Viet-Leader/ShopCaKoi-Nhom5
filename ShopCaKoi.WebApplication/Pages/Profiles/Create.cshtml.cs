@@ -28,8 +28,8 @@ namespace ShopCaKoi.WebApplication.Pages.Profiles
             {
                 return Page();
             }
-			Customer.CustomerId = Guid.NewGuid().ToString();
-			bool isExists = await _service.CustomerExists(Customer.CustomerId, Customer.Email);
+            Customer.CustomerId = Guid.NewGuid().ToString();
+            bool isExists = await _service.CustomerExists(Customer.CustomerId, Customer.Email);
             if (isExists)
             {
                 ModelState.AddModelError(string.Empty, "Email hoặc ID đã tồn tại.");
@@ -43,7 +43,7 @@ namespace ShopCaKoi.WebApplication.Pages.Profiles
                 return Page();
             }
             TempData["SuccessMessage"] = "Đăng ký thành công! Bạn sẽ được chuyển hướng về trang chủ.";
-            return RedirectToPage("/Index");
+            return RedirectToPage("/Profiles/Suscess");
 
         }
     }

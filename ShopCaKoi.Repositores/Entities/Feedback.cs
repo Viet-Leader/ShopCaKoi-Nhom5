@@ -5,7 +5,7 @@ namespace ShopCaKoi.Repositores.Entities;
 
 public partial class Feedback
 {
-    public string Id { get; set; } = null!;
+    public string Id { get; set; } = Guid.NewGuid().ToString()!;
 
     public string? CustomerId { get; set; }
 

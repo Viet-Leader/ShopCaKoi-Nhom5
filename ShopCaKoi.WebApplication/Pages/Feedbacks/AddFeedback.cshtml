@@ -1,0 +1,44 @@
+﻿@page
+@model ShopCaKoi.WebApplication.Pages.Feedbacks.AddFeedbackModel
+@{
+    ViewData["Title"] = "Thêm Phản Hồi";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <h2 class="mt-4">Thêm Phản Hồi</h2>
+
+    <!-- Form thêm phản hồi -->
+    <form method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Feedback.Comment" class="control-label">Nội dung phản hồi:</label>
+            <textarea asp-for="Feedback.Comment" class="form-control" rows="5" required></textarea>
+            <span asp-validation-for="Feedback.Comment" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-3">Gửi Phản Hồi</button>
+    </form>
+
+    <!-- Hiển thị thông báo thành công -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success mt-3">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    <!-- Hiển thị lỗi -->
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger mt-3">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
