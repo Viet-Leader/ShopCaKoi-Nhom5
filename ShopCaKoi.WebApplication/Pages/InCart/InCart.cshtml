@@ -54,7 +54,7 @@
                                         </td>
                                             <td>@String.Format("{0:0,0} vnd", (@item.Price * @item.Quantity))</td>
                                             <td>
-                                                <form method="post" asp-page="/InCart/InCart" asp-route-handler="RemoveItem" asp-route-cartItemId="@item.CartItemId" asp-route-customerId="@Model.Cart.CustomerId">
+                                                <form method="post" asp-page="/InCart/DeleteItem" asp-route-handler="RemoveItem" asp-route-cartItemId="@item.CartItemId" asp-route-customerId="@Model.Cart.CustomerId">
                                                     <button type="submit" class="btn btn-black btn-sm">X</button>
                                                 </form>
 
@@ -79,7 +79,7 @@
                                             </td>
                                             <td>@String.Format("{0:0,0} vnd",(@item.Price * @item.Quantity))</td>
                                             <td>
-                                                <form method="post" asp-page="/InCart/InCart" asp-route-handler="RemoveItem" asp-route-cartItemId="@item.CartItemId" asp-route-customerId="@Model.Cart.CustomerId">
+                                                <form method="post" asp-page="/InCart/DeleteItem" asp-route-handler="RemoveItem" asp-route-cartItemId="@item.CartItemId" asp-route-customerId="@Model.Cart.CustomerId">
                                                     <button type="submit" class="btn btn-black btn-sm">X</button>
                                                 </form>
 

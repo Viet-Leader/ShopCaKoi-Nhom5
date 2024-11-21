@@ -62,12 +62,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZGJhY2tzXEFkZEZlZWRiYWNrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Feedbacks/Suscess.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZGJhY2tzXFN1c2Nlc3MuY3NodG1s
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/Feedbacks/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZGJhY2tzXFN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InCart/DeleteItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5DYXJ0XERlbGV0ZUl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InCart/EmptyCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5DYXJ0XEVtcHR5Q2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Github/ShopCaKoi-Nhom5/ShopCaKoi.WebApplication/Pages/InCart/InCart.cshtml]

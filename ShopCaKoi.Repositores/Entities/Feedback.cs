@@ -9,8 +9,6 @@ public partial class Feedback
 
     public string? CustomerId { get; set; }
 
-    public int? Rating { get; set; }
-
     public string? Comment { get; set; }
 
     public virtual Customer? Customer { get; set; }

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ShopCaKoi.WebApplication.Pages.Feedbacks
 {
-    public class SuscessModel : PageModel
+    public class SuccessModel : PageModel
     {
         public void OnGet()
         {

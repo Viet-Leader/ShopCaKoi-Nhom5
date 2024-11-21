@@ -9,7 +9,7 @@ using ShopCaKoi.Sevices.Interfaces;
 
 namespace ShopCaKoi.Sevices
 {
-    public class FeedbackService: IFeedbackService
+    public class FeedbackService : IFeedbackService
     {
         private readonly IFeedbackRepository _repository;
         public FeedbackService(IFeedbackRepository repository)
@@ -19,7 +19,7 @@ namespace ShopCaKoi.Sevices
 
         public bool AddFeedback(Feedback infor)
         {
-           return _repository.AddFeedback(infor);
+            return _repository.AddFeedback(infor);
         }
     }
 }

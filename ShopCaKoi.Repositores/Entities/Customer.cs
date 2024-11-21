@@ -5,7 +5,7 @@ namespace ShopCaKoi.Repositores.Entities;
 
 public partial class Customer
 {
-    public string CustomerId { get; set; } = Guid.NewGuid().ToString()!;
+    public string CustomerId { get; set; } = null!;
 
     public string Name { get; set; } = null!;
 

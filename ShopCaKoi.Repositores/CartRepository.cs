@@ -75,14 +75,18 @@ namespace ShopCaKoi.Repositores
         }*/
         public void RemoveItemFromCart(string cartItemId)
         {
+            // Tìm kiếm item trong CartItems theo cartItemId
             var item = _dbContext.CartItems.FirstOrDefault(c => c.CartItemId == cartItemId);
+
+            // Nếu tìm thấy item, thực hiện xóa
             if (item != null)
             {
-                _dbContext.CartItems.Remove(item);  // Xóa sản phẩm
+                _dbContext.CartItems.Remove(item);  // Xóa item khỏi cơ sở dữ liệu
                 _dbContext.SaveChanges();  // Lưu thay đổi vào cơ sở dữ liệu
             }
             else
             {
+                // Nếu không tìm thấy item, ném ra exception để thông báo
                 throw new Exception("Item not found in the cart.");
             }
         }
